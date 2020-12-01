@@ -3886,12 +3886,12 @@ RGB_Pin
 Text GLabel 1795 9525 0    50   Input ~ 0
 RGB_Pin
 $Comp
-L Connector:Conn_01x03_Female J2
+L Connector:Conn_01x03_Female J?
 U 1 1 6020B8B6
 P 6282 9901
-F 0 "J2" V 6220 9713 50  0000 R CNN
+F 0 "J?" V 6220 9713 50  0000 R CNN
 F 1 "Conn_01x03_Female" V 6129 9713 50  0000 R CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_1x03_P2.00mm_Horizontal" H 6282 9901 50  0001 C CNN
+F 2 "" H 6282 9901 50  0001 C CNN
 F 3 "~" H 6282 9901 50  0001 C CNN
 	1    6282 9901
 	0    -1   -1   0   
