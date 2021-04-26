@@ -1,0 +1,3001 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L crispy-keyboard-rescue:KEYSW-keyboard_parts-discipline-pcb-rescue SW1
+U 1 1 5BDAA9A5
+P 4410 1510
+F 0 "SW1" H 4410 1743 60  0000 C CNN
+F 1 "KEYSW" H 4410 1410 60  0001 C CNN
+F 2 "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN" H 4410 1510 60  0001 C CNN
+F 3 "" H 4410 1510 60  0000 C CNN
+	1    4410 1510
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D1
+U 1 1 5BDAAA52
+P 4060 1710
+F 0 "D1" V 4106 1631 50  0000 R CNN
+F 1 " " V 4015 1631 50  0000 R CNN
+F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" H 4060 1710 50  0001 C CNN
+F 3 "~" H 4060 1710 50  0001 C CNN
+	1    4060 1710
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4110 1510 4060 1510
+Wire Wire Line
+	4060 1510 4060 1560
+$Comp
+L crispy-keyboard-rescue:KEYSW-keyboard_parts-discipline-pcb-rescue SW2
+U 1 1 5BDB3743
+P 5110 1510
+F 0 "SW2" H 5110 1743 60  0000 C CNN
+F 1 "KEYSW" H 5110 1410 60  0001 C CNN
+F 2 "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN" H 5110 1510 60  0001 C CNN
+F 3 "" H 5110 1510 60  0000 C CNN
+	1    5110 1510
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D2
+U 1 1 5BDB374A
+P 4760 1710
+F 0 "D2" V 4806 1631 50  0000 R CNN
+F 1 " " V 4715 1631 50  0000 R CNN
+F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" H 4760 1710 50  0001 C CNN
+F 3 "~" H 4760 1710 50  0001 C CNN
+	1    4760 1710
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4810 1510 4760 1510
+Wire Wire Line
+	4760 1510 4760 1560
+$Comp
+L crispy-keyboard-rescue:KEYSW-keyboard_parts-discipline-pcb-rescue SW3
+U 1 1 5BDB4A41
+P 5810 1510
+F 0 "SW3" H 5810 1743 60  0000 C CNN
+F 1 "KEYSW" H 5810 1410 60  0001 C CNN
+F 2 "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN" H 5810 1510 60  0001 C CNN
+F 3 "" H 5810 1510 60  0000 C CNN
+	1    5810 1510
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D3
+U 1 1 5BDB4A48
+P 5460 1710
+F 0 "D3" V 5506 1631 50  0000 R CNN
+F 1 " " V 5415 1631 50  0000 R CNN
+F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" H 5460 1710 50  0001 C CNN
+F 3 "~" H 5460 1710 50  0001 C CNN
+	1    5460 1710
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5510 1510 5460 1510
+Wire Wire Line
+	5460 1510 5460 1560
+$Comp
+L crispy-keyboard-rescue:KEYSW-keyboard_parts-discipline-pcb-rescue SW4
+U 1 1 5BDB5E7B
+P 6510 1510
+F 0 "SW4" H 6510 1743 60  0000 C CNN
+F 1 "KEYSW" H 6510 1410 60  0001 C CNN
+F 2 "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN" H 6510 1510 60  0001 C CNN
+F 3 "" H 6510 1510 60  0000 C CNN
+	1    6510 1510
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D4
+U 1 1 5BDB5E82
+P 6160 1710
+F 0 "D4" V 6206 1631 50  0000 R CNN
+F 1 " " V 6115 1631 50  0000 R CNN
+F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" H 6160 1710 50  0001 C CNN
+F 3 "~" H 6160 1710 50  0001 C CNN
+	1    6160 1710
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6210 1510 6160 1510
+Wire Wire Line
+	6160 1510 6160 1560
+$Comp
+L crispy-keyboard-rescue:KEYSW-keyboard_parts-discipline-pcb-rescue SW5
+U 1 1 5BDB746A
+P 7210 1510
+F 0 "SW5" H 7210 1743 60  0000 C CNN
+F 1 "KEYSW" H 7210 1410 60  0001 C CNN
+F 2 "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN" H 7210 1510 60  0001 C CNN
+F 3 "" H 7210 1510 60  0000 C CNN
+	1    7210 1510
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D5
+U 1 1 5BDB7471
+P 6860 1710
+F 0 "D5" V 6906 1631 50  0000 R CNN
+F 1 " " V 6815 1631 50  0000 R CNN
+F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" H 6860 1710 50  0001 C CNN
+F 3 "~" H 6860 1710 50  0001 C CNN
+	1    6860 1710
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6910 1510 6860 1510
+Wire Wire Line
+	6860 1510 6860 1560
+$Comp
+L crispy-keyboard-rescue:KEYSW-keyboard_parts-discipline-pcb-rescue SW6
+U 1 1 5BDB8AF4
+P 7910 1510
+F 0 "SW6" H 7910 1743 60  0000 C CNN
+F 1 "KEYSW" H 7910 1410 60  0001 C CNN
+F 2 "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN" H 7910 1510 60  0001 C CNN
+F 3 "" H 7910 1510 60  0000 C CNN
+	1    7910 1510
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D6
+U 1 1 5BDB8AFB
+P 7560 1710
+F 0 "D6" V 7606 1631 50  0000 R CNN
+F 1 " " V 7515 1631 50  0000 R CNN
+F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" H 7560 1710 50  0001 C CNN
+F 3 "~" H 7560 1710 50  0001 C CNN
+	1    7560 1710
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7610 1510 7560 1510
+Wire Wire Line
+	7560 1510 7560 1560
+$Comp
+L crispy-keyboard-rescue:KEYSW-keyboard_parts-discipline-pcb-rescue SW7
+U 1 1 5BDBA2A7
+P 8610 1510
+F 0 "SW7" H 8610 1743 60  0000 C CNN
+F 1 "KEYSW" H 8610 1410 60  0001 C CNN
+F 2 "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN" H 8610 1510 60  0001 C CNN
+F 3 "" H 8610 1510 60  0000 C CNN
+	1    8610 1510
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D7
+U 1 1 5BDBA2AE
+P 8260 1710
+F 0 "D7" V 8306 1631 50  0000 R CNN
+F 1 " " V 8215 1631 50  0000 R CNN
+F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" H 8260 1710 50  0001 C CNN
+F 3 "~" H 8260 1710 50  0001 C CNN
+	1    8260 1710
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8310 1510 8260 1510
+Wire Wire Line
+	8260 1510 8260 1560
+$Comp
+L crispy-keyboard-rescue:KEYSW-keyboard_parts-discipline-pcb-rescue SW8
+U 1 1 5BDC4F87
+P 9310 1510
+F 0 "SW8" H 9310 1743 60  0000 C CNN
+F 1 "KEYSW" H 9310 1410 60  0001 C CNN
+F 2 "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN" H 9310 1510 60  0001 C CNN
+F 3 "" H 9310 1510 60  0000 C CNN
+	1    9310 1510
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D8
+U 1 1 5BDC4F8E
+P 8960 1710
+F 0 "D8" V 9006 1631 50  0000 R CNN
+F 1 " " V 8915 1631 50  0000 R CNN
+F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" H 8960 1710 50  0001 C CNN
+F 3 "~" H 8960 1710 50  0001 C CNN
+	1    8960 1710
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9010 1510 8960 1510
+Wire Wire Line
+	8960 1510 8960 1560
+$Comp
+L crispy-keyboard-rescue:KEYSW-keyboard_parts-discipline-pcb-rescue SW9
+U 1 1 5BDC6958
+P 10010 1510
+F 0 "SW9" H 10010 1743 60  0000 C CNN
+F 1 "KEYSW" H 10010 1410 60  0001 C CNN
+F 2 "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN" H 10010 1510 60  0001 C CNN
+F 3 "" H 10010 1510 60  0000 C CNN
+	1    10010 1510
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D9
+U 1 1 5BDC695F
+P 9660 1710
+F 0 "D9" V 9706 1631 50  0000 R CNN
+F 1 " " V 9615 1631 50  0000 R CNN
+F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" H 9660 1710 50  0001 C CNN
+F 3 "~" H 9660 1710 50  0001 C CNN
+	1    9660 1710
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9710 1510 9660 1510
+Wire Wire Line
+	9660 1510 9660 1560
+$Comp
+L crispy-keyboard-rescue:KEYSW-keyboard_parts-discipline-pcb-rescue SW10
+U 1 1 5BDC8400
+P 10710 1510
+F 0 "SW10" H 10710 1743 60  0000 C CNN
+F 1 "KEYSW" H 10710 1410 60  0001 C CNN
+F 2 "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN" H 10710 1510 60  0001 C CNN
+F 3 "" H 10710 1510 60  0000 C CNN
+	1    10710 1510
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D10
+U 1 1 5BDC8407
+P 10360 1710
+F 0 "D10" V 10406 1631 50  0000 R CNN
+F 1 " " V 10315 1631 50  0000 R CNN
+F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" H 10360 1710 50  0001 C CNN
+F 3 "~" H 10360 1710 50  0001 C CNN
+	1    10360 1710
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10410 1510 10360 1510
+Wire Wire Line
+	10360 1510 10360 1560
+$Comp
+L crispy-keyboard-rescue:KEYSW-keyboard_parts-discipline-pcb-rescue SW11
+U 1 1 5BDC9FAD
+P 11410 1510
+F 0 "SW11" H 11410 1743 60  0000 C CNN
+F 1 "KEYSW" H 11410 1410 60  0001 C CNN
+F 2 "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN" H 11410 1510 60  0001 C CNN
+F 3 "" H 11410 1510 60  0000 C CNN
+	1    11410 1510
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D11
+U 1 1 5BDC9FB4
+P 11060 1710
+F 0 "D11" V 11106 1631 50  0000 R CNN
+F 1 " " V 11015 1631 50  0000 R CNN
+F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" H 11060 1710 50  0001 C CNN
+F 3 "~" H 11060 1710 50  0001 C CNN
+	1    11060 1710
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11110 1510 11060 1510
+Wire Wire Line
+	11060 1510 11060 1560
+$Comp
+L crispy-keyboard-rescue:KEYSW-keyboard_parts-discipline-pcb-rescue SW12
+U 1 1 5BDCBC8D
+P 12110 1510
+F 0 "SW12" H 12110 1743 60  0000 C CNN
+F 1 "KEYSW" H 12110 1410 60  0001 C CNN
+F 2 "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN" H 12110 1510 60  0001 C CNN
+F 3 "" H 12110 1510 60  0000 C CNN
+	1    12110 1510
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D12
+U 1 1 5BDCBC94
+P 11760 1710
+F 0 "D12" V 11806 1631 50  0000 R CNN
+F 1 " " V 11715 1631 50  0000 R CNN
+F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" H 11760 1710 50  0001 C CNN
+F 3 "~" H 11760 1710 50  0001 C CNN
+	1    11760 1710
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11810 1510 11760 1510
+Wire Wire Line
+	11760 1510 11760 1560
+$Comp
+L crispy-keyboard-rescue:KEYSW-keyboard_parts-discipline-pcb-rescue SW13
+U 1 1 5BDCDA46
+P 12810 1510
+F 0 "SW13" H 12810 1743 60  0000 C CNN
+F 1 "KEYSW" H 12810 1410 60  0001 C CNN
+F 2 "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN" H 12810 1510 60  0001 C CNN
+F 3 "" H 12810 1510 60  0000 C CNN
+	1    12810 1510
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D13
+U 1 1 5BDCDA4D
+P 12460 1710
+F 0 "D13" V 12506 1631 50  0000 R CNN
+F 1 " " V 12415 1631 50  0000 R CNN
+F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" H 12460 1710 50  0001 C CNN
+F 3 "~" H 12460 1710 50  0001 C CNN
+	1    12460 1710
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	12510 1510 12460 1510
+Wire Wire Line
+	12460 1510 12460 1560
+$Comp
+L crispy-keyboard-rescue:KEYSW-keyboard_parts-discipline-pcb-rescue SW14
+U 1 1 5BDCF8D2
+P 13510 1510
+F 0 "SW14" H 13510 1743 60  0000 C CNN
+F 1 "KEYSW" H 13510 1410 60  0001 C CNN
+F 2 "cftkb:SW_Cherry_MX1A_2.00u_PCBNOSCREEN" H 13510 1510 60  0001 C CNN
+F 3 "" H 13510 1510 60  0000 C CNN
+	1    13510 1510
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D14
+U 1 1 5BDCF8D9
+P 13160 1710
+F 0 "D14" V 13206 1631 50  0000 R CNN
+F 1 " " V 13115 1631 50  0000 R CNN
+F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" H 13160 1710 50  0001 C CNN
+F 3 "~" H 13160 1710 50  0001 C CNN
+	1    13160 1710
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	13210 1510 13160 1510
+Wire Wire Line
+	13160 1510 13160 1560
+$Comp
+L crispy-keyboard-rescue:KEYSW-keyboard_parts-discipline-pcb-rescue SW15
+U 1 1 5BDD186B
+P 14210 1510
+F 0 "SW15" H 14210 1743 60  0000 C CNN
+F 1 "KEYSW" H 14210 1410 60  0001 C CNN
+F 2 "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN" H 14210 1510 60  0001 C CNN
+F 3 "" H 14210 1510 60  0000 C CNN
+	1    14210 1510
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D15
+U 1 1 5BDD1872
+P 13860 1710
+F 0 "D15" V 13906 1631 50  0000 R CNN
+F 1 " " V 13815 1631 50  0000 R CNN
+F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" H 13860 1710 50  0001 C CNN
+F 3 "~" H 13860 1710 50  0001 C CNN
+	1    13860 1710
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	13910 1510 13860 1510
+Wire Wire Line
+	13860 1510 13860 1560
+$Comp
+L crispy-keyboard-rescue:KEYSW-keyboard_parts-discipline-pcb-rescue SW16
+U 1 1 5BDD4A79
+P 4410 2060
+F 0 "SW16" H 4410 2293 60  0000 C CNN
+F 1 "KEYSW" H 4410 1960 60  0001 C CNN
+F 2 "cftkb:SW_Cherry_MX1A_1.50u_PCBNOSCREEN" H 4410 2060 60  0001 C CNN
+F 3 "" H 4410 2060 60  0000 C CNN
+	1    4410 2060
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D16
+U 1 1 5BDD4A80
+P 4060 2260
+F 0 "D16" V 4106 2181 50  0000 R CNN
+F 1 " " V 4015 2181 50  0000 R CNN
+F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" H 4060 2260 50  0001 C CNN
+F 3 "~" H 4060 2260 50  0001 C CNN
+	1    4060 2260
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4110 2060 4060 2060
+Wire Wire Line
+	4060 2060 4060 2110
+$Comp
+L crispy-keyboard-rescue:KEYSW-keyboard_parts-discipline-pcb-rescue SW17
+U 1 1 5BDD4A89
+P 5110 2060
+F 0 "SW17" H 5110 2293 60  0000 C CNN
+F 1 "KEYSW" H 5110 1960 60  0001 C CNN
+F 2 "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN" H 5110 2060 60  0001 C CNN
+F 3 "" H 5110 2060 60  0000 C CNN
+	1    5110 2060
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D17
+U 1 1 5BDD4A90
+P 4760 2260
+F 0 "D17" V 4806 2181 50  0000 R CNN
+F 1 " " V 4715 2181 50  0000 R CNN
+F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" H 4760 2260 50  0001 C CNN
+F 3 "~" H 4760 2260 50  0001 C CNN
+	1    4760 2260
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4810 2060 4760 2060
+Wire Wire Line
+	4760 2060 4760 2110
+$Comp
+L crispy-keyboard-rescue:KEYSW-keyboard_parts-discipline-pcb-rescue SW18
+U 1 1 5BDD4A99
+P 5810 2060
+F 0 "SW18" H 5810 2293 60  0000 C CNN
+F 1 "KEYSW" H 5810 1960 60  0001 C CNN
+F 2 "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN" H 5810 2060 60  0001 C CNN
+F 3 "" H 5810 2060 60  0000 C CNN
+	1    5810 2060
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D18
+U 1 1 5BDD4AA0
+P 5460 2260
+F 0 "D18" V 5506 2181 50  0000 R CNN
+F 1 " " V 5415 2181 50  0000 R CNN
+F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" H 5460 2260 50  0001 C CNN
+F 3 "~" H 5460 2260 50  0001 C CNN
+	1    5460 2260
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5510 2060 5460 2060
+Wire Wire Line
+	5460 2060 5460 2110
+$Comp
+L crispy-keyboard-rescue:KEYSW-keyboard_parts-discipline-pcb-rescue SW19
+U 1 1 5BDD4AA9
+P 6510 2060
+F 0 "SW19" H 6510 2293 60  0000 C CNN
+F 1 "KEYSW" H 6510 1960 60  0001 C CNN
+F 2 "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN" H 6510 2060 60  0001 C CNN
+F 3 "" H 6510 2060 60  0000 C CNN
+	1    6510 2060
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D19
+U 1 1 5BDD4AB0
+P 6160 2260
+F 0 "D19" V 6206 2181 50  0000 R CNN
+F 1 " " V 6115 2181 50  0000 R CNN
+F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" H 6160 2260 50  0001 C CNN
+F 3 "~" H 6160 2260 50  0001 C CNN
+	1    6160 2260
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6210 2060 6160 2060
+Wire Wire Line
+	6160 2060 6160 2110
+$Comp
+L crispy-keyboard-rescue:KEYSW-keyboard_parts-discipline-pcb-rescue SW20
+U 1 1 5BDD4AB9
+P 7210 2060
+F 0 "SW20" H 7210 2293 60  0000 C CNN
+F 1 "KEYSW" H 7210 1960 60  0001 C CNN
+F 2 "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN" H 7210 2060 60  0001 C CNN
+F 3 "" H 7210 2060 60  0000 C CNN
+	1    7210 2060
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D20
+U 1 1 5BDD4AC0
+P 6860 2260
+F 0 "D20" V 6906 2181 50  0000 R CNN
+F 1 " " V 6815 2181 50  0000 R CNN
+F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" H 6860 2260 50  0001 C CNN
+F 3 "~" H 6860 2260 50  0001 C CNN
+	1    6860 2260
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6910 2060 6860 2060
+Wire Wire Line
+	6860 2060 6860 2110
+$Comp
+L crispy-keyboard-rescue:KEYSW-keyboard_parts-discipline-pcb-rescue SW21
+U 1 1 5BDD4AC9
+P 7910 2060
+F 0 "SW21" H 7910 2293 60  0000 C CNN
+F 1 "KEYSW" H 7910 1960 60  0001 C CNN
+F 2 "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN" H 7910 2060 60  0001 C CNN
+F 3 "" H 7910 2060 60  0000 C CNN
+	1    7910 2060
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D21
+U 1 1 5BDD4AD0
+P 7560 2260
+F 0 "D21" V 7606 2181 50  0000 R CNN
+F 1 " " V 7515 2181 50  0000 R CNN
+F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" H 7560 2260 50  0001 C CNN
+F 3 "~" H 7560 2260 50  0001 C CNN
+	1    7560 2260
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7610 2060 7560 2060
+Wire Wire Line
+	7560 2060 7560 2110
+$Comp
+L crispy-keyboard-rescue:KEYSW-keyboard_parts-discipline-pcb-rescue SW22
+U 1 1 5BDD4AD9
+P 8610 2060
+F 0 "SW22" H 8610 2293 60  0000 C CNN
+F 1 "KEYSW" H 8610 1960 60  0001 C CNN
+F 2 "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN" H 8610 2060 60  0001 C CNN
+F 3 "" H 8610 2060 60  0000 C CNN
+	1    8610 2060
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D22
+U 1 1 5BDD4AE0
+P 8260 2260
+F 0 "D22" V 8306 2181 50  0000 R CNN
+F 1 " " V 8215 2181 50  0000 R CNN
+F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" H 8260 2260 50  0001 C CNN
+F 3 "~" H 8260 2260 50  0001 C CNN
+	1    8260 2260
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8310 2060 8260 2060
+Wire Wire Line
+	8260 2060 8260 2110
+$Comp
+L crispy-keyboard-rescue:KEYSW-keyboard_parts-discipline-pcb-rescue SW23
+U 1 1 5BDD4AE9
+P 9310 2060
+F 0 "SW23" H 9310 2293 60  0000 C CNN
+F 1 "KEYSW" H 9310 1960 60  0001 C CNN
+F 2 "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN" H 9310 2060 60  0001 C CNN
+F 3 "" H 9310 2060 60  0000 C CNN
+	1    9310 2060
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D23
+U 1 1 5BDD4AF0
+P 8960 2260
+F 0 "D23" V 9006 2181 50  0000 R CNN
+F 1 " " V 8915 2181 50  0000 R CNN
+F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" H 8960 2260 50  0001 C CNN
+F 3 "~" H 8960 2260 50  0001 C CNN
+	1    8960 2260
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9010 2060 8960 2060
+Wire Wire Line
+	8960 2060 8960 2110
+$Comp
+L crispy-keyboard-rescue:KEYSW-keyboard_parts-discipline-pcb-rescue SW24
+U 1 1 5BDD4AF9
+P 10010 2060
+F 0 "SW24" H 10010 2293 60  0000 C CNN
+F 1 "KEYSW" H 10010 1960 60  0001 C CNN
+F 2 "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN" H 10010 2060 60  0001 C CNN
+F 3 "" H 10010 2060 60  0000 C CNN
+	1    10010 2060
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D24
+U 1 1 5BDD4B00
+P 9660 2260
+F 0 "D24" V 9706 2181 50  0000 R CNN
+F 1 " " V 9615 2181 50  0000 R CNN
+F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" H 9660 2260 50  0001 C CNN
+F 3 "~" H 9660 2260 50  0001 C CNN
+	1    9660 2260
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9710 2060 9660 2060
+Wire Wire Line
+	9660 2060 9660 2110
+$Comp
+L crispy-keyboard-rescue:KEYSW-keyboard_parts-discipline-pcb-rescue SW25
+U 1 1 5BDD4B09
+P 10710 2060
+F 0 "SW25" H 10710 2293 60  0000 C CNN
+F 1 "KEYSW" H 10710 1960 60  0001 C CNN
+F 2 "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN" H 10710 2060 60  0001 C CNN
+F 3 "" H 10710 2060 60  0000 C CNN
+	1    10710 2060
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D25
+U 1 1 5BDD4B10
+P 10360 2260
+F 0 "D25" V 10406 2181 50  0000 R CNN
+F 1 " " V 10315 2181 50  0000 R CNN
+F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" H 10360 2260 50  0001 C CNN
+F 3 "~" H 10360 2260 50  0001 C CNN
+	1    10360 2260
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10410 2060 10360 2060
+Wire Wire Line
+	10360 2060 10360 2110
+$Comp
+L crispy-keyboard-rescue:KEYSW-keyboard_parts-discipline-pcb-rescue SW26
+U 1 1 5BDD4B19
+P 11410 2060
+F 0 "SW26" H 11410 2293 60  0000 C CNN
+F 1 "KEYSW" H 11410 1960 60  0001 C CNN
+F 2 "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN" H 11410 2060 60  0001 C CNN
+F 3 "" H 11410 2060 60  0000 C CNN
+	1    11410 2060
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D26
+U 1 1 5BDD4B20
+P 11060 2260
+F 0 "D26" V 11106 2181 50  0000 R CNN
+F 1 " " V 11015 2181 50  0000 R CNN
+F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" H 11060 2260 50  0001 C CNN
+F 3 "~" H 11060 2260 50  0001 C CNN
+	1    11060 2260
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11110 2060 11060 2060
+Wire Wire Line
+	11060 2060 11060 2110
+$Comp
+L crispy-keyboard-rescue:KEYSW-keyboard_parts-discipline-pcb-rescue SW27
+U 1 1 5BDD4B29
+P 12110 2060
+F 0 "SW27" H 12110 2293 60  0000 C CNN
+F 1 "KEYSW" H 12110 1960 60  0001 C CNN
+F 2 "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN" H 12110 2060 60  0001 C CNN
+F 3 "" H 12110 2060 60  0000 C CNN
+	1    12110 2060
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D27
+U 1 1 5BDD4B30
+P 11760 2260
+F 0 "D27" V 11806 2181 50  0000 R CNN
+F 1 " " V 11715 2181 50  0000 R CNN
+F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" H 11760 2260 50  0001 C CNN
+F 3 "~" H 11760 2260 50  0001 C CNN
+	1    11760 2260
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11810 2060 11760 2060
+Wire Wire Line
+	11760 2060 11760 2110
+$Comp
+L crispy-keyboard-rescue:KEYSW-keyboard_parts-discipline-pcb-rescue SW28
+U 1 1 5BDD4B39
+P 12810 2060
+F 0 "SW28" H 12810 2293 60  0000 C CNN
+F 1 "KEYSW" H 12810 1960 60  0001 C CNN
+F 2 "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN" H 12810 2060 60  0001 C CNN
+F 3 "" H 12810 2060 60  0000 C CNN
+	1    12810 2060
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D28
+U 1 1 5BDD4B40
+P 12460 2260
+F 0 "D28" V 12506 2181 50  0000 R CNN
+F 1 " " V 12415 2181 50  0000 R CNN
+F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" H 12460 2260 50  0001 C CNN
+F 3 "~" H 12460 2260 50  0001 C CNN
+	1    12460 2260
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	12510 2060 12460 2060
+Wire Wire Line
+	12460 2060 12460 2110
+$Comp
+L crispy-keyboard-rescue:KEYSW-keyboard_parts-discipline-pcb-rescue SW29
+U 1 1 5BDD4B49
+P 13510 2060
+F 0 "SW29" H 13510 2293 60  0000 C CNN
+F 1 "KEYSW" H 13510 1960 60  0001 C CNN
+F 2 "cftkb:SW_Cherry_MX1A_1.50u_PCBNOSCREEN" H 13510 2060 60  0001 C CNN
+F 3 "" H 13510 2060 60  0000 C CNN
+	1    13510 2060
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D29
+U 1 1 5BDD4B50
+P 13160 2260
+F 0 "D29" V 13206 2181 50  0000 R CNN
+F 1 " " V 13115 2181 50  0000 R CNN
+F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" H 13160 2260 50  0001 C CNN
+F 3 "~" H 13160 2260 50  0001 C CNN
+	1    13160 2260
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	13210 2060 13160 2060
+Wire Wire Line
+	13160 2060 13160 2110
+$Comp
+L crispy-keyboard-rescue:KEYSW-keyboard_parts-discipline-pcb-rescue SW30
+U 1 1 5BDD4B59
+P 14210 2060
+F 0 "SW30" H 14210 2293 60  0000 C CNN
+F 1 "KEYSW" H 14210 1960 60  0001 C CNN
+F 2 "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN" H 14210 2060 60  0001 C CNN
+F 3 "" H 14210 2060 60  0000 C CNN
+	1    14210 2060
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D30
+U 1 1 5BDD4B60
+P 13860 2260
+F 0 "D30" V 13906 2181 50  0000 R CNN
+F 1 " " V 13815 2181 50  0000 R CNN
+F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" H 13860 2260 50  0001 C CNN
+F 3 "~" H 13860 2260 50  0001 C CNN
+	1    13860 2260
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	13910 2060 13860 2060
+Wire Wire Line
+	13860 2060 13860 2110
+$Comp
+L crispy-keyboard-rescue:KEYSW-keyboard_parts-discipline-pcb-rescue SW31
+U 1 1 5BE2E393
+P 4410 2660
+F 0 "SW31" H 4410 2893 60  0000 C CNN
+F 1 "KEYSW" H 4410 2560 60  0001 C CNN
+F 2 "cftkb:SW_Cherry_MX1A_1.75u_PCBNOSCREEN" H 4410 2660 60  0001 C CNN
+F 3 "" H 4410 2660 60  0000 C CNN
+	1    4410 2660
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D31
+U 1 1 5BE2E39A
+P 4060 2860
+F 0 "D31" V 4106 2781 50  0000 R CNN
+F 1 " " V 4015 2781 50  0000 R CNN
+F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" H 4060 2860 50  0001 C CNN
+F 3 "~" H 4060 2860 50  0001 C CNN
+	1    4060 2860
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4110 2660 4060 2660
+Wire Wire Line
+	4060 2660 4060 2710
+$Comp
+L crispy-keyboard-rescue:KEYSW-keyboard_parts-discipline-pcb-rescue SW32
+U 1 1 5BE2E3A3
+P 5110 2660
+F 0 "SW32" H 5110 2893 60  0000 C CNN
+F 1 "KEYSW" H 5110 2560 60  0001 C CNN
+F 2 "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN" H 5110 2660 60  0001 C CNN
+F 3 "" H 5110 2660 60  0000 C CNN
+	1    5110 2660
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D32
+U 1 1 5BE2E3AA
+P 4760 2860
+F 0 "D32" V 4806 2781 50  0000 R CNN
+F 1 " " V 4715 2781 50  0000 R CNN
+F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" H 4760 2860 50  0001 C CNN
+F 3 "~" H 4760 2860 50  0001 C CNN
+	1    4760 2860
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4810 2660 4760 2660
+Wire Wire Line
+	4760 2660 4760 2710
+$Comp
+L crispy-keyboard-rescue:KEYSW-keyboard_parts-discipline-pcb-rescue SW33
+U 1 1 5BE2E3B3
+P 5810 2660
+F 0 "SW33" H 5810 2893 60  0000 C CNN
+F 1 "KEYSW" H 5810 2560 60  0001 C CNN
+F 2 "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN" H 5810 2660 60  0001 C CNN
+F 3 "" H 5810 2660 60  0000 C CNN
+	1    5810 2660
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D33
+U 1 1 5BE2E3BA
+P 5460 2860
+F 0 "D33" V 5506 2781 50  0000 R CNN
+F 1 " " V 5415 2781 50  0000 R CNN
+F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" H 5460 2860 50  0001 C CNN
+F 3 "~" H 5460 2860 50  0001 C CNN
+	1    5460 2860
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5510 2660 5460 2660
+Wire Wire Line
+	5460 2660 5460 2710
+$Comp
+L crispy-keyboard-rescue:KEYSW-keyboard_parts-discipline-pcb-rescue SW34
+U 1 1 5BE2E3C3
+P 6510 2660
+F 0 "SW34" H 6510 2893 60  0000 C CNN
+F 1 "KEYSW" H 6510 2560 60  0001 C CNN
+F 2 "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN" H 6510 2660 60  0001 C CNN
+F 3 "" H 6510 2660 60  0000 C CNN
+	1    6510 2660
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D34
+U 1 1 5BE2E3CA
+P 6160 2860
+F 0 "D34" V 6206 2781 50  0000 R CNN
+F 1 " " V 6115 2781 50  0000 R CNN
+F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" H 6160 2860 50  0001 C CNN
+F 3 "~" H 6160 2860 50  0001 C CNN
+	1    6160 2860
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6210 2660 6160 2660
+Wire Wire Line
+	6160 2660 6160 2710
+$Comp
+L crispy-keyboard-rescue:KEYSW-keyboard_parts-discipline-pcb-rescue SW35
+U 1 1 5BE2E3D3
+P 7210 2660
+F 0 "SW35" H 7210 2893 60  0000 C CNN
+F 1 "KEYSW" H 7210 2560 60  0001 C CNN
+F 2 "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN" H 7210 2660 60  0001 C CNN
+F 3 "" H 7210 2660 60  0000 C CNN
+	1    7210 2660
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D35
+U 1 1 5BE2E3DA
+P 6860 2860
+F 0 "D35" V 6906 2781 50  0000 R CNN
+F 1 " " V 6815 2781 50  0000 R CNN
+F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" H 6860 2860 50  0001 C CNN
+F 3 "~" H 6860 2860 50  0001 C CNN
+	1    6860 2860
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6910 2660 6860 2660
+Wire Wire Line
+	6860 2660 6860 2710
+$Comp
+L crispy-keyboard-rescue:KEYSW-keyboard_parts-discipline-pcb-rescue SW36
+U 1 1 5BE2E3E3
+P 7910 2660
+F 0 "SW36" H 7910 2893 60  0000 C CNN
+F 1 "KEYSW" H 7910 2560 60  0001 C CNN
+F 2 "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN" H 7910 2660 60  0001 C CNN
+F 3 "" H 7910 2660 60  0000 C CNN
+	1    7910 2660
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D36
+U 1 1 5BE2E3EA
+P 7560 2860
+F 0 "D36" V 7606 2781 50  0000 R CNN
+F 1 " " V 7515 2781 50  0000 R CNN
+F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" H 7560 2860 50  0001 C CNN
+F 3 "~" H 7560 2860 50  0001 C CNN
+	1    7560 2860
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7610 2660 7560 2660
+Wire Wire Line
+	7560 2660 7560 2710
+$Comp
+L crispy-keyboard-rescue:KEYSW-keyboard_parts-discipline-pcb-rescue SW37
+U 1 1 5BE2E3F3
+P 8610 2660
+F 0 "SW37" H 8610 2893 60  0000 C CNN
+F 1 "KEYSW" H 8610 2560 60  0001 C CNN
+F 2 "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN" H 8610 2660 60  0001 C CNN
+F 3 "" H 8610 2660 60  0000 C CNN
+	1    8610 2660
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D37
+U 1 1 5BE2E3FA
+P 8260 2860
+F 0 "D37" V 8306 2781 50  0000 R CNN
+F 1 " " V 8215 2781 50  0000 R CNN
+F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" H 8260 2860 50  0001 C CNN
+F 3 "~" H 8260 2860 50  0001 C CNN
+	1    8260 2860
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8310 2660 8260 2660
+Wire Wire Line
+	8260 2660 8260 2710
+$Comp
+L crispy-keyboard-rescue:KEYSW-keyboard_parts-discipline-pcb-rescue SW38
+U 1 1 5BE2E403
+P 9310 2660
+F 0 "SW38" H 9310 2893 60  0000 C CNN
+F 1 "KEYSW" H 9310 2560 60  0001 C CNN
+F 2 "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN" H 9310 2660 60  0001 C CNN
+F 3 "" H 9310 2660 60  0000 C CNN
+	1    9310 2660
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D38
+U 1 1 5BE2E40A
+P 8960 2860
+F 0 "D38" V 9006 2781 50  0000 R CNN
+F 1 " " V 8915 2781 50  0000 R CNN
+F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" H 8960 2860 50  0001 C CNN
+F 3 "~" H 8960 2860 50  0001 C CNN
+	1    8960 2860
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9010 2660 8960 2660
+Wire Wire Line
+	8960 2660 8960 2710
+$Comp
+L crispy-keyboard-rescue:KEYSW-keyboard_parts-discipline-pcb-rescue SW39
+U 1 1 5BE2E413
+P 10010 2660
+F 0 "SW39" H 10010 2893 60  0000 C CNN
+F 1 "KEYSW" H 10010 2560 60  0001 C CNN
+F 2 "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN" H 10010 2660 60  0001 C CNN
+F 3 "" H 10010 2660 60  0000 C CNN
+	1    10010 2660
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D39
+U 1 1 5BE2E41A
+P 9660 2860
+F 0 "D39" V 9706 2781 50  0000 R CNN
+F 1 " " V 9615 2781 50  0000 R CNN
+F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" H 9660 2860 50  0001 C CNN
+F 3 "~" H 9660 2860 50  0001 C CNN
+	1    9660 2860
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9710 2660 9660 2660
+Wire Wire Line
+	9660 2660 9660 2710
+$Comp
+L crispy-keyboard-rescue:KEYSW-keyboard_parts-discipline-pcb-rescue SW40
+U 1 1 5BE2E423
+P 10710 2660
+F 0 "SW40" H 10710 2893 60  0000 C CNN
+F 1 "KEYSW" H 10710 2560 60  0001 C CNN
+F 2 "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN" H 10710 2660 60  0001 C CNN
+F 3 "" H 10710 2660 60  0000 C CNN
+	1    10710 2660
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D40
+U 1 1 5BE2E42A
+P 10360 2860
+F 0 "D40" V 10406 2781 50  0000 R CNN
+F 1 " " V 10315 2781 50  0000 R CNN
+F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" H 10360 2860 50  0001 C CNN
+F 3 "~" H 10360 2860 50  0001 C CNN
+	1    10360 2860
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10410 2660 10360 2660
+Wire Wire Line
+	10360 2660 10360 2710
+$Comp
+L crispy-keyboard-rescue:KEYSW-keyboard_parts-discipline-pcb-rescue SW41
+U 1 1 5BE2E433
+P 11410 2660
+F 0 "SW41" H 11410 2893 60  0000 C CNN
+F 1 "KEYSW" H 11410 2560 60  0001 C CNN
+F 2 "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN" H 11410 2660 60  0001 C CNN
+F 3 "" H 11410 2660 60  0000 C CNN
+	1    11410 2660
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D41
+U 1 1 5BE2E43A
+P 11060 2860
+F 0 "D41" V 11106 2781 50  0000 R CNN
+F 1 " " V 11015 2781 50  0000 R CNN
+F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" H 11060 2860 50  0001 C CNN
+F 3 "~" H 11060 2860 50  0001 C CNN
+	1    11060 2860
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11110 2660 11060 2660
+Wire Wire Line
+	11060 2660 11060 2710
+$Comp
+L crispy-keyboard-rescue:KEYSW-keyboard_parts-discipline-pcb-rescue SW42
+U 1 1 5BE2E443
+P 12110 2660
+F 0 "SW42" H 12110 2893 60  0000 C CNN
+F 1 "KEYSW" H 12110 2560 60  0001 C CNN
+F 2 "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN" H 12110 2660 60  0001 C CNN
+F 3 "" H 12110 2660 60  0000 C CNN
+	1    12110 2660
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D42
+U 1 1 5BE2E44A
+P 11760 2860
+F 0 "D42" V 11806 2781 50  0000 R CNN
+F 1 " " V 11715 2781 50  0000 R CNN
+F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" H 11760 2860 50  0001 C CNN
+F 3 "~" H 11760 2860 50  0001 C CNN
+	1    11760 2860
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11810 2660 11760 2660
+Wire Wire Line
+	11760 2660 11760 2710
+$Comp
+L crispy-keyboard-rescue:KEYSW-keyboard_parts-discipline-pcb-rescue SW43
+U 1 1 5BE2E453
+P 13510 2660
+F 0 "SW43" H 13510 2893 60  0000 C CNN
+F 1 "KEYSW" H 13510 2560 60  0001 C CNN
+F 2 "cftkb:SW_Cherry_MX1A_2.25u_PCBNOSCREEN" H 13510 2660 60  0001 C CNN
+F 3 "" H 13510 2660 60  0000 C CNN
+	1    13510 2660
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D43
+U 1 1 5BE2E45A
+P 13160 2860
+F 0 "D43" V 13206 2781 50  0000 R CNN
+F 1 " " V 13115 2781 50  0000 R CNN
+F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" H 13160 2860 50  0001 C CNN
+F 3 "~" H 13160 2860 50  0001 C CNN
+	1    13160 2860
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	13210 2660 13160 2660
+Wire Wire Line
+	13160 2660 13160 2710
+$Comp
+L crispy-keyboard-rescue:KEYSW-keyboard_parts-discipline-pcb-rescue SW44
+U 1 1 5BE2E463
+P 14210 2660
+F 0 "SW44" H 14210 2893 60  0000 C CNN
+F 1 "KEYSW" H 14210 2560 60  0001 C CNN
+F 2 "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN" H 14210 2660 60  0001 C CNN
+F 3 "" H 14210 2660 60  0000 C CNN
+	1    14210 2660
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D44
+U 1 1 5BE2E46A
+P 13860 2860
+F 0 "D44" V 13906 2781 50  0000 R CNN
+F 1 " " V 13815 2781 50  0000 R CNN
+F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" H 13860 2860 50  0001 C CNN
+F 3 "~" H 13860 2860 50  0001 C CNN
+	1    13860 2860
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	13910 2660 13860 2660
+Wire Wire Line
+	13860 2660 13860 2710
+$Comp
+L crispy-keyboard-rescue:KEYSW-keyboard_parts-discipline-pcb-rescue SW45
+U 1 1 5BE34833
+P 4410 3260
+F 0 "SW45" H 4410 3493 60  0000 C CNN
+F 1 "KEYSW" H 4410 3160 60  0001 C CNN
+F 2 "cftkb:SW_Cherry_MX1A_2.25u_PCBNOSCREEN" H 4410 3260 60  0001 C CNN
+F 3 "" H 4410 3260 60  0000 C CNN
+	1    4410 3260
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D45
+U 1 1 5BE3483A
+P 4060 3460
+F 0 "D45" V 4106 3381 50  0000 R CNN
+F 1 " " V 4015 3381 50  0000 R CNN
+F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" H 4060 3460 50  0001 C CNN
+F 3 "~" H 4060 3460 50  0001 C CNN
+	1    4060 3460
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4110 3260 4060 3260
+Wire Wire Line
+	4060 3260 4060 3310
+$Comp
+L crispy-keyboard-rescue:KEYSW-keyboard_parts-discipline-pcb-rescue SW46
+U 1 1 5BE34843
+P 5810 3260
+F 0 "SW46" H 5810 3493 60  0000 C CNN
+F 1 "KEYSW" H 5810 3160 60  0001 C CNN
+F 2 "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN" H 5810 3260 60  0001 C CNN
+F 3 "" H 5810 3260 60  0000 C CNN
+	1    5810 3260
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D46
+U 1 1 5BE3484A
+P 5460 3460
+F 0 "D46" V 5506 3381 50  0000 R CNN
+F 1 " " V 5415 3381 50  0000 R CNN
+F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" H 5460 3460 50  0001 C CNN
+F 3 "~" H 5460 3460 50  0001 C CNN
+	1    5460 3460
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5510 3260 5460 3260
+Wire Wire Line
+	5460 3260 5460 3310
+$Comp
+L crispy-keyboard-rescue:KEYSW-keyboard_parts-discipline-pcb-rescue SW47
+U 1 1 5BE34853
+P 6510 3260
+F 0 "SW47" H 6510 3493 60  0000 C CNN
+F 1 "KEYSW" H 6510 3160 60  0001 C CNN
+F 2 "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN" H 6510 3260 60  0001 C CNN
+F 3 "" H 6510 3260 60  0000 C CNN
+	1    6510 3260
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D47
+U 1 1 5BE3485A
+P 6160 3460
+F 0 "D47" V 6206 3381 50  0000 R CNN
+F 1 " " V 6115 3381 50  0000 R CNN
+F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" H 6160 3460 50  0001 C CNN
+F 3 "~" H 6160 3460 50  0001 C CNN
+	1    6160 3460
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6210 3260 6160 3260
+Wire Wire Line
+	6160 3260 6160 3310
+$Comp
+L crispy-keyboard-rescue:KEYSW-keyboard_parts-discipline-pcb-rescue SW48
+U 1 1 5BE34863
+P 7210 3260
+F 0 "SW48" H 7210 3493 60  0000 C CNN
+F 1 "KEYSW" H 7210 3160 60  0001 C CNN
+F 2 "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN" H 7210 3260 60  0001 C CNN
+F 3 "" H 7210 3260 60  0000 C CNN
+	1    7210 3260
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D48
+U 1 1 5BE3486A
+P 6860 3460
+F 0 "D48" V 6906 3381 50  0000 R CNN
+F 1 " " V 6815 3381 50  0000 R CNN
+F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" H 6860 3460 50  0001 C CNN
+F 3 "~" H 6860 3460 50  0001 C CNN
+	1    6860 3460
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6910 3260 6860 3260
+Wire Wire Line
+	6860 3260 6860 3310
+$Comp
+L crispy-keyboard-rescue:KEYSW-keyboard_parts-discipline-pcb-rescue SW49
+U 1 1 5BE34873
+P 7910 3260
+F 0 "SW49" H 7910 3493 60  0000 C CNN
+F 1 "KEYSW" H 7910 3160 60  0001 C CNN
+F 2 "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN" H 7910 3260 60  0001 C CNN
+F 3 "" H 7910 3260 60  0000 C CNN
+	1    7910 3260
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D49
+U 1 1 5BE3487A
+P 7560 3460
+F 0 "D49" V 7606 3381 50  0000 R CNN
+F 1 " " V 7515 3381 50  0000 R CNN
+F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" H 7560 3460 50  0001 C CNN
+F 3 "~" H 7560 3460 50  0001 C CNN
+	1    7560 3460
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7610 3260 7560 3260
+Wire Wire Line
+	7560 3260 7560 3310
+$Comp
+L crispy-keyboard-rescue:KEYSW-keyboard_parts-discipline-pcb-rescue SW50
+U 1 1 5BE34883
+P 8610 3260
+F 0 "SW50" H 8610 3493 60  0000 C CNN
+F 1 "KEYSW" H 8610 3160 60  0001 C CNN
+F 2 "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN" H 8610 3260 60  0001 C CNN
+F 3 "" H 8610 3260 60  0000 C CNN
+	1    8610 3260
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D50
+U 1 1 5BE3488A
+P 8260 3460
+F 0 "D50" V 8306 3381 50  0000 R CNN
+F 1 " " V 8215 3381 50  0000 R CNN
+F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" H 8260 3460 50  0001 C CNN
+F 3 "~" H 8260 3460 50  0001 C CNN
+	1    8260 3460
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8310 3260 8260 3260
+Wire Wire Line
+	8260 3260 8260 3310
+$Comp
+L crispy-keyboard-rescue:KEYSW-keyboard_parts-discipline-pcb-rescue SW51
+U 1 1 5BE34893
+P 9310 3260
+F 0 "SW51" H 9310 3493 60  0000 C CNN
+F 1 "KEYSW" H 9310 3160 60  0001 C CNN
+F 2 "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN" H 9310 3260 60  0001 C CNN
+F 3 "" H 9310 3260 60  0000 C CNN
+	1    9310 3260
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D51
+U 1 1 5BE3489A
+P 8960 3460
+F 0 "D51" V 9006 3381 50  0000 R CNN
+F 1 " " V 8915 3381 50  0000 R CNN
+F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" H 8960 3460 50  0001 C CNN
+F 3 "~" H 8960 3460 50  0001 C CNN
+	1    8960 3460
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9010 3260 8960 3260
+Wire Wire Line
+	8960 3260 8960 3310
+$Comp
+L crispy-keyboard-rescue:KEYSW-keyboard_parts-discipline-pcb-rescue SW52
+U 1 1 5BE348A3
+P 10010 3260
+F 0 "SW52" H 10010 3493 60  0000 C CNN
+F 1 "KEYSW" H 10010 3160 60  0001 C CNN
+F 2 "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN" H 10010 3260 60  0001 C CNN
+F 3 "" H 10010 3260 60  0000 C CNN
+	1    10010 3260
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D52
+U 1 1 5BE348AA
+P 9660 3460
+F 0 "D52" V 9706 3381 50  0000 R CNN
+F 1 " " V 9615 3381 50  0000 R CNN
+F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" H 9660 3460 50  0001 C CNN
+F 3 "~" H 9660 3460 50  0001 C CNN
+	1    9660 3460
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9710 3260 9660 3260
+Wire Wire Line
+	9660 3260 9660 3310
+$Comp
+L crispy-keyboard-rescue:KEYSW-keyboard_parts-discipline-pcb-rescue SW53
+U 1 1 5BE348B3
+P 10710 3260
+F 0 "SW53" H 10710 3493 60  0000 C CNN
+F 1 "KEYSW" H 10710 3160 60  0001 C CNN
+F 2 "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN" H 10710 3260 60  0001 C CNN
+F 3 "" H 10710 3260 60  0000 C CNN
+	1    10710 3260
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D53
+U 1 1 5BE348BA
+P 10360 3460
+F 0 "D53" V 10406 3381 50  0000 R CNN
+F 1 " " V 10315 3381 50  0000 R CNN
+F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" H 10360 3460 50  0001 C CNN
+F 3 "~" H 10360 3460 50  0001 C CNN
+	1    10360 3460
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10410 3260 10360 3260
+Wire Wire Line
+	10360 3260 10360 3310
+$Comp
+L crispy-keyboard-rescue:KEYSW-keyboard_parts-discipline-pcb-rescue SW54
+U 1 1 5BE348C3
+P 11410 3260
+F 0 "SW54" H 11410 3493 60  0000 C CNN
+F 1 "KEYSW" H 11410 3160 60  0001 C CNN
+F 2 "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN" H 11410 3260 60  0001 C CNN
+F 3 "" H 11410 3260 60  0000 C CNN
+	1    11410 3260
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D54
+U 1 1 5BE348CA
+P 11060 3460
+F 0 "D54" V 11106 3381 50  0000 R CNN
+F 1 " " V 11015 3381 50  0000 R CNN
+F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" H 11060 3460 50  0001 C CNN
+F 3 "~" H 11060 3460 50  0001 C CNN
+	1    11060 3460
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11110 3260 11060 3260
+Wire Wire Line
+	11060 3260 11060 3310
+$Comp
+L crispy-keyboard-rescue:KEYSW-keyboard_parts-discipline-pcb-rescue SW55
+U 1 1 5BE348D3
+P 12110 3260
+F 0 "SW55" H 12110 3493 60  0000 C CNN
+F 1 "KEYSW" H 12110 3160 60  0001 C CNN
+F 2 "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN" H 12110 3260 60  0001 C CNN
+F 3 "" H 12110 3260 60  0000 C CNN
+	1    12110 3260
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D55
+U 1 1 5BE348DA
+P 11760 3460
+F 0 "D55" V 11806 3381 50  0000 R CNN
+F 1 " " V 11715 3381 50  0000 R CNN
+F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" H 11760 3460 50  0001 C CNN
+F 3 "~" H 11760 3460 50  0001 C CNN
+	1    11760 3460
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11810 3260 11760 3260
+Wire Wire Line
+	11760 3260 11760 3310
+$Comp
+L crispy-keyboard-rescue:KEYSW-keyboard_parts-discipline-pcb-rescue SW56
+U 1 1 5BE348E3
+P 12810 3260
+F 0 "SW56" H 12810 3493 60  0000 C CNN
+F 1 "KEYSW" H 12810 3160 60  0001 C CNN
+F 2 "cftkb:SW_Cherry_MX1A_1.75u_PCBNOSCREEN" H 12810 3260 60  0001 C CNN
+F 3 "" H 12810 3260 60  0000 C CNN
+	1    12810 3260
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D56
+U 1 1 5BE348EA
+P 12460 3460
+F 0 "D56" V 12506 3381 50  0000 R CNN
+F 1 " " V 12415 3381 50  0000 R CNN
+F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" H 12460 3460 50  0001 C CNN
+F 3 "~" H 12460 3460 50  0001 C CNN
+	1    12460 3460
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	12510 3260 12460 3260
+Wire Wire Line
+	12460 3260 12460 3310
+$Comp
+L crispy-keyboard-rescue:KEYSW-keyboard_parts-discipline-pcb-rescue SW57
+U 1 1 5BE348F3
+P 13510 3260
+F 0 "SW57" H 13510 3493 60  0000 C CNN
+F 1 "KEYSW" H 13510 3160 60  0001 C CNN
+F 2 "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN" H 13510 3260 60  0001 C CNN
+F 3 "" H 13510 3260 60  0000 C CNN
+	1    13510 3260
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D57
+U 1 1 5BE348FA
+P 13160 3460
+F 0 "D57" V 13206 3381 50  0000 R CNN
+F 1 " " V 13115 3381 50  0000 R CNN
+F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" H 13160 3460 50  0001 C CNN
+F 3 "~" H 13160 3460 50  0001 C CNN
+	1    13160 3460
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	13210 3260 13160 3260
+Wire Wire Line
+	13160 3260 13160 3310
+$Comp
+L crispy-keyboard-rescue:KEYSW-keyboard_parts-discipline-pcb-rescue SW58
+U 1 1 5BE34903
+P 14210 3260
+F 0 "SW58" H 14210 3493 60  0000 C CNN
+F 1 "KEYSW" H 14210 3160 60  0001 C CNN
+F 2 "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN" H 14210 3260 60  0001 C CNN
+F 3 "" H 14210 3260 60  0000 C CNN
+	1    14210 3260
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D58
+U 1 1 5BE3490A
+P 13860 3460
+F 0 "D58" V 13906 3381 50  0000 R CNN
+F 1 " " V 13815 3381 50  0000 R CNN
+F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" H 13860 3460 50  0001 C CNN
+F 3 "~" H 13860 3460 50  0001 C CNN
+	1    13860 3460
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	13910 3260 13860 3260
+Wire Wire Line
+	13860 3260 13860 3310
+$Comp
+L crispy-keyboard-rescue:KEYSW-keyboard_parts-discipline-pcb-rescue SW59
+U 1 1 5BE64C5B
+P 4410 3810
+F 0 "SW59" H 4410 4043 60  0000 C CNN
+F 1 "KEYSW" H 4410 3710 60  0001 C CNN
+F 2 "cftkb:SW_Cherry_MX1A_1.25u_PCBNOSCREEN" H 4410 3810 60  0001 C CNN
+F 3 "" H 4410 3810 60  0000 C CNN
+	1    4410 3810
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D59
+U 1 1 5BE64C62
+P 4060 4010
+F 0 "D59" V 4106 3931 50  0000 R CNN
+F 1 " " V 4015 3931 50  0000 R CNN
+F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" H 4060 4010 50  0001 C CNN
+F 3 "~" H 4060 4010 50  0001 C CNN
+	1    4060 4010
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4110 3810 4060 3810
+$Comp
+L crispy-keyboard-rescue:KEYSW-keyboard_parts-discipline-pcb-rescue SW60
+U 1 1 5BE64C6A
+P 5110 3810
+F 0 "SW60" H 5110 4043 60  0000 C CNN
+F 1 "KEYSW" H 5110 3710 60  0001 C CNN
+F 2 "cftkb:SW_Cherry_MX1A_1.25u_PCBNOSCREEN" H 5110 3810 60  0001 C CNN
+F 3 "" H 5110 3810 60  0000 C CNN
+	1    5110 3810
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D60
+U 1 1 5BE64C71
+P 4760 4010
+F 0 "D60" V 4806 3931 50  0000 R CNN
+F 1 " " V 4715 3931 50  0000 R CNN
+F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" H 4760 4010 50  0001 C CNN
+F 3 "~" H 4760 4010 50  0001 C CNN
+	1    4760 4010
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4810 3810 4760 3810
+Wire Wire Line
+	4760 3810 4760 3860
+$Comp
+L crispy-keyboard-rescue:KEYSW-keyboard_parts-discipline-pcb-rescue SW61
+U 1 1 5BE64C7A
+P 5810 3810
+F 0 "SW61" H 5810 4043 60  0000 C CNN
+F 1 "KEYSW" H 5810 3710 60  0001 C CNN
+F 2 "cftkb:SW_Cherry_MX1A_1.25u_PCBNOSCREEN" H 5810 3810 60  0001 C CNN
+F 3 "" H 5810 3810 60  0000 C CNN
+	1    5810 3810
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D61
+U 1 1 5BE64C81
+P 5460 4010
+F 0 "D61" V 5506 3931 50  0000 R CNN
+F 1 " " V 5415 3931 50  0000 R CNN
+F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" H 5460 4010 50  0001 C CNN
+F 3 "~" H 5460 4010 50  0001 C CNN
+	1    5460 4010
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5510 3810 5460 3810
+Wire Wire Line
+	5460 3810 5460 3860
+$Comp
+L crispy-keyboard-rescue:KEYSW-keyboard_parts-discipline-pcb-rescue SW62
+U 1 1 5BE7F31E
+P 8610 3810
+F 0 "SW62" H 8610 4043 60  0000 C CNN
+F 1 "KEYSW" H 8610 3710 60  0001 C CNN
+F 2 "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN" H 8610 3810 60  0001 C CNN
+F 3 "" H 8610 3810 60  0000 C CNN
+	1    8610 3810
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D62
+U 1 1 5BE7F325
+P 8260 4010
+F 0 "D62" V 8306 3931 50  0000 R CNN
+F 1 " " V 8215 3931 50  0000 R CNN
+F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" H 8260 4010 50  0001 C CNN
+F 3 "~" H 8260 4010 50  0001 C CNN
+	1    8260 4010
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8310 3810 8260 3810
+Wire Wire Line
+	8260 3810 8260 3860
+$Comp
+L crispy-keyboard-rescue:KEYSW-keyboard_parts-discipline-pcb-rescue SW63
+U 1 1 5BE881B1
+P 10710 3810
+F 0 "SW63" H 10710 4043 60  0000 C CNN
+F 1 "KEYSW" H 10710 3710 60  0001 C CNN
+F 2 "cftkb:SW_Cherry_MX1A_1.25u_PCBNOSCREEN" H 10710 3810 60  0001 C CNN
+F 3 "" H 10710 3810 60  0000 C CNN
+	1    10710 3810
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D63
+U 1 1 5BE881B8
+P 10360 4010
+F 0 "D63" V 10406 3931 50  0000 R CNN
+F 1 " " V 10315 3931 50  0000 R CNN
+F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" H 10360 4010 50  0001 C CNN
+F 3 "~" H 10360 4010 50  0001 C CNN
+	1    10360 4010
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10410 3810 10360 3810
+Wire Wire Line
+	10360 3810 10360 3860
+$Comp
+L crispy-keyboard-rescue:KEYSW-keyboard_parts-discipline-pcb-rescue SW64
+U 1 1 5BE881C1
+P 11410 3810
+F 0 "SW64" H 11410 4043 60  0000 C CNN
+F 1 "KEYSW" H 11410 3710 60  0001 C CNN
+F 2 "cftkb:SW_Cherry_MX1A_1.25u_PCBNOSCREEN" H 11410 3810 60  0001 C CNN
+F 3 "" H 11410 3810 60  0000 C CNN
+	1    11410 3810
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D64
+U 1 1 5BE881C8
+P 11060 4010
+F 0 "D64" V 11106 3931 50  0000 R CNN
+F 1 " " V 11015 3931 50  0000 R CNN
+F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" H 11060 4010 50  0001 C CNN
+F 3 "~" H 11060 4010 50  0001 C CNN
+	1    11060 4010
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11110 3810 11060 3810
+Wire Wire Line
+	11060 3810 11060 3860
+$Comp
+L crispy-keyboard-rescue:KEYSW-keyboard_parts-discipline-pcb-rescue SW65
+U 1 1 5BE881D1
+P 12810 3810
+F 0 "SW65" H 12810 4043 60  0000 C CNN
+F 1 "KEYSW" H 12810 3710 60  0001 C CNN
+F 2 "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN" H 12810 3810 60  0001 C CNN
+F 3 "" H 12810 3810 60  0000 C CNN
+	1    12810 3810
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D65
+U 1 1 5BE881D8
+P 12460 4010
+F 0 "D65" V 12506 3931 50  0000 R CNN
+F 1 " " V 12415 3931 50  0000 R CNN
+F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" H 12460 4010 50  0001 C CNN
+F 3 "~" H 12460 4010 50  0001 C CNN
+	1    12460 4010
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	12510 3810 12460 3810
+Wire Wire Line
+	12460 3810 12460 3860
+$Comp
+L crispy-keyboard-rescue:KEYSW-keyboard_parts-discipline-pcb-rescue SW66
+U 1 1 5BE881E1
+P 13510 3810
+F 0 "SW66" H 13510 4043 60  0000 C CNN
+F 1 "KEYSW" H 13510 3710 60  0001 C CNN
+F 2 "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN" H 13510 3810 60  0001 C CNN
+F 3 "" H 13510 3810 60  0000 C CNN
+	1    13510 3810
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D66
+U 1 1 5BE881E8
+P 13160 4010
+F 0 "D66" V 13206 3931 50  0000 R CNN
+F 1 " " V 13115 3931 50  0000 R CNN
+F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" H 13160 4010 50  0001 C CNN
+F 3 "~" H 13160 4010 50  0001 C CNN
+	1    13160 4010
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	13210 3810 13160 3810
+Wire Wire Line
+	13160 3810 13160 3860
+$Comp
+L crispy-keyboard-rescue:KEYSW-keyboard_parts-discipline-pcb-rescue SW67
+U 1 1 5BE881F1
+P 14210 3810
+F 0 "SW67" H 14210 4043 60  0000 C CNN
+F 1 "KEYSW" H 14210 3710 60  0001 C CNN
+F 2 "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN" H 14210 3810 60  0001 C CNN
+F 3 "" H 14210 3810 60  0000 C CNN
+	1    14210 3810
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D67
+U 1 1 5BE881F8
+P 13860 4010
+F 0 "D67" V 13906 3931 50  0000 R CNN
+F 1 " " V 13815 3931 50  0000 R CNN
+F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" H 13860 4010 50  0001 C CNN
+F 3 "~" H 13860 4010 50  0001 C CNN
+	1    13860 4010
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	13910 3810 13860 3810
+Wire Wire Line
+	13860 3810 13860 3860
+Wire Wire Line
+	4060 1860 4760 1860
+Connection ~ 4760 1860
+Wire Wire Line
+	4760 1860 5460 1860
+Connection ~ 5460 1860
+Wire Wire Line
+	5460 1860 6160 1860
+Connection ~ 6160 1860
+Wire Wire Line
+	6160 1860 6860 1860
+Connection ~ 6860 1860
+Wire Wire Line
+	6860 1860 7560 1860
+Connection ~ 7560 1860
+Wire Wire Line
+	7560 1860 8260 1860
+Connection ~ 8260 1860
+Wire Wire Line
+	8260 1860 8960 1860
+Connection ~ 8960 1860
+Wire Wire Line
+	8960 1860 9660 1860
+Connection ~ 9660 1860
+Wire Wire Line
+	9660 1860 10360 1860
+Connection ~ 10360 1860
+Wire Wire Line
+	10360 1860 11060 1860
+Connection ~ 11060 1860
+Wire Wire Line
+	11060 1860 11760 1860
+Connection ~ 11760 1860
+Wire Wire Line
+	11760 1860 12460 1860
+Connection ~ 12460 1860
+Wire Wire Line
+	12460 1860 13160 1860
+Connection ~ 13160 1860
+Wire Wire Line
+	13160 1860 13860 1860
+Connection ~ 4060 1860
+Wire Wire Line
+	4010 2410 4060 2410
+Connection ~ 4060 2410
+Wire Wire Line
+	4060 2410 4760 2410
+Connection ~ 4760 2410
+Wire Wire Line
+	4760 2410 5460 2410
+Connection ~ 5460 2410
+Wire Wire Line
+	5460 2410 6160 2410
+Connection ~ 6160 2410
+Wire Wire Line
+	6160 2410 6860 2410
+Connection ~ 6860 2410
+Wire Wire Line
+	6860 2410 7560 2410
+Connection ~ 7560 2410
+Wire Wire Line
+	7560 2410 8260 2410
+Connection ~ 8260 2410
+Wire Wire Line
+	8260 2410 8960 2410
+Connection ~ 8960 2410
+Wire Wire Line
+	8960 2410 9660 2410
+Connection ~ 9660 2410
+Wire Wire Line
+	9660 2410 10360 2410
+Connection ~ 10360 2410
+Wire Wire Line
+	10360 2410 11060 2410
+Connection ~ 11060 2410
+Wire Wire Line
+	11060 2410 11760 2410
+Connection ~ 11760 2410
+Wire Wire Line
+	11760 2410 12460 2410
+Connection ~ 12460 2410
+Wire Wire Line
+	12460 2410 13160 2410
+Connection ~ 13160 2410
+Wire Wire Line
+	13160 2410 13860 2410
+Wire Wire Line
+	4060 3010 4760 3010
+Connection ~ 4760 3010
+Wire Wire Line
+	4760 3010 5460 3010
+Connection ~ 5460 3010
+Wire Wire Line
+	5460 3010 6160 3010
+Connection ~ 6160 3010
+Wire Wire Line
+	6160 3010 6860 3010
+Connection ~ 6860 3010
+Wire Wire Line
+	6860 3010 7560 3010
+Connection ~ 7560 3010
+Wire Wire Line
+	7560 3010 8260 3010
+Connection ~ 8260 3010
+Wire Wire Line
+	8260 3010 8960 3010
+Connection ~ 8960 3010
+Wire Wire Line
+	8960 3010 9660 3010
+Connection ~ 9660 3010
+Wire Wire Line
+	9660 3010 10360 3010
+Connection ~ 10360 3010
+Wire Wire Line
+	10360 3010 11060 3010
+Connection ~ 11060 3010
+Wire Wire Line
+	11060 3010 11760 3010
+Connection ~ 11760 3010
+Wire Wire Line
+	11760 3010 13160 3010
+Connection ~ 13160 3010
+Wire Wire Line
+	13160 3010 13860 3010
+Connection ~ 5460 3610
+Wire Wire Line
+	5460 3610 6160 3610
+Connection ~ 6160 3610
+Wire Wire Line
+	6160 3610 6860 3610
+Connection ~ 6860 3610
+Wire Wire Line
+	6860 3610 7560 3610
+Connection ~ 7560 3610
+Wire Wire Line
+	7560 3610 8260 3610
+Connection ~ 8260 3610
+Wire Wire Line
+	8260 3610 8960 3610
+Connection ~ 8960 3610
+Wire Wire Line
+	8960 3610 9660 3610
+Connection ~ 9660 3610
+Wire Wire Line
+	9660 3610 10360 3610
+Connection ~ 10360 3610
+Wire Wire Line
+	10360 3610 11060 3610
+Connection ~ 11060 3610
+Wire Wire Line
+	11060 3610 11760 3610
+Connection ~ 11760 3610
+Wire Wire Line
+	11760 3610 12460 3610
+Connection ~ 12460 3610
+Wire Wire Line
+	12460 3610 13160 3610
+Connection ~ 13160 3610
+Wire Wire Line
+	13160 3610 13860 3610
+Wire Wire Line
+	4760 4160 5460 4160
+Connection ~ 5460 4160
+Wire Wire Line
+	5460 4160 6860 4160
+Wire Wire Line
+	12460 4160 13160 4160
+Connection ~ 13160 4160
+Wire Wire Line
+	13160 4160 13860 4160
+Wire Wire Line
+	4010 3010 4060 3010
+Connection ~ 4060 3010
+Wire Wire Line
+	4010 3610 4060 3610
+Connection ~ 4060 3610
+Wire Wire Line
+	4060 3610 4810 3610
+Wire Wire Line
+	4010 4160 4060 4160
+Connection ~ 4760 4160
+Connection ~ 4060 4160
+Wire Wire Line
+	4060 4160 4760 4160
+Text Label 5410 1560 3    50   ~ 0
+col1
+Text Label 4710 1560 3    50   ~ 0
+col0
+Text Label 6110 1609 3    50   ~ 0
+col2
+Text Label 6110 1610 3    50   ~ 0
+col2
+Text Label 6810 1610 3    50   ~ 0
+col3
+Text Label 7510 1610 3    50   ~ 0
+col4
+Text Label 8210 1610 3    50   ~ 0
+col5
+Text Label 8910 1610 3    50   ~ 0
+col6
+Text Label 9610 1610 3    50   ~ 0
+col7
+Text Label 10310 1660 3    50   ~ 0
+col8
+Text Label 11010 1710 3    50   ~ 0
+col9
+Text Label 11710 1610 3    50   ~ 0
+col10
+Text Label 12410 1560 3    50   ~ 0
+col11
+Text Label 13110 1660 3    50   ~ 0
+col12
+Text Label 13810 1560 3    50   ~ 0
+col13
+Text Label 14510 1610 3    50   ~ 0
+col14
+Text GLabel 4710 1460 1    50   Input ~ 0
+col0
+Text GLabel 6165 1460 1    50   Input ~ 0
+col2
+Text GLabel 6810 1460 1    50   Input ~ 0
+col3
+Text GLabel 7510 1460 1    50   Input ~ 0
+col4
+Text GLabel 8210 1460 1    50   Input ~ 0
+col5
+Text GLabel 8910 1460 1    50   Input ~ 0
+col6
+Text GLabel 9610 1460 1    50   Input ~ 0
+col7
+Text GLabel 10310 1460 1    50   Input ~ 0
+col8
+Text GLabel 11010 1460 1    50   Input ~ 0
+col9
+Text GLabel 11710 1460 1    50   Input ~ 0
+col10
+Text GLabel 12410 1460 1    50   Input ~ 0
+col11
+Text GLabel 13110 1460 1    50   Input ~ 0
+col12
+Text GLabel 13810 1460 1    50   Input ~ 0
+col13
+Text GLabel 14510 1460 1    50   Input ~ 0
+col14
+Wire Wire Line
+	4060 3810 4060 3860
+Text Notes 13000 11050 0    50   ~ 0
+24/04/2021\n
+$Comp
+L crispy-keyboard-rescue:KEYSW-keyboard_parts-discipline-pcb-rescue SW68
+U 1 1 5D067388
+P 12110 3810
+F 0 "SW68" H 12110 4043 60  0000 C CNN
+F 1 "KEYSW" H 12110 3710 60  0001 C CNN
+F 2 "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN" H 12110 3810 60  0001 C CNN
+F 3 "" H 12110 3810 60  0000 C CNN
+	1    12110 3810
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D68
+U 1 1 5D06738E
+P 11760 4010
+F 0 "D68" V 11806 3931 50  0000 R CNN
+F 1 " " V 11715 3931 50  0000 R CNN
+F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" H 11760 4010 50  0001 C CNN
+F 3 "~" H 11760 4010 50  0001 C CNN
+	1    11760 4010
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11810 3810 11760 3810
+Wire Wire Line
+	11760 3810 11760 3860
+Wire Wire Line
+	8260 4160 10360 4160
+Connection ~ 8260 4160
+Wire Wire Line
+	10360 4160 11060 4160
+Connection ~ 10360 4160
+Wire Wire Line
+	11060 4160 11760 4160
+Connection ~ 11060 4160
+Wire Wire Line
+	11760 4160 12460 4160
+Connection ~ 11760 4160
+Connection ~ 12460 4160
+$Comp
+L power:GND #PWR0104
+U 1 1 5D19C23E
+P 5060 7497
+F 0 "#PWR0104" H 5060 7247 50  0001 C CNN
+F 1 "GND" H 5065 7324 50  0000 C CNN
+F 2 "" H 5060 7497 50  0001 C CNN
+F 3 "" H 5060 7497 50  0001 C CNN
+	1    5060 7497
+	0    1    1    0   
+$EndComp
+Text GLabel 6342 6497 2    50   Input ~ 0
+row2
+Text Notes 15491 11062 2    50   ~ 0
+1\n
+Wire Wire Line
+	4710 1460 4710 1510
+Connection ~ 4710 1510
+Wire Wire Line
+	4710 1510 4710 2060
+Connection ~ 4710 2060
+Wire Wire Line
+	4710 2060 4710 2660
+Connection ~ 4710 2660
+Wire Wire Line
+	4710 2660 4710 3260
+Connection ~ 4710 3260
+Wire Wire Line
+	4710 3260 4710 3810
+Wire Wire Line
+	5410 1460 5410 1510
+Connection ~ 5410 1510
+Wire Wire Line
+	5410 1510 5410 2060
+Connection ~ 5410 2060
+Wire Wire Line
+	5410 2060 5410 2660
+Connection ~ 5410 2660
+Wire Wire Line
+	5410 2660 5410 3260
+Wire Wire Line
+	6110 1510 6110 2060
+Connection ~ 6110 2060
+Wire Wire Line
+	6110 2060 6110 2660
+Connection ~ 6110 2660
+Wire Wire Line
+	6110 2660 6110 3260
+Connection ~ 6110 3260
+Wire Wire Line
+	6110 3260 6110 3810
+Wire Wire Line
+	6810 1460 6810 1510
+Connection ~ 6810 1510
+Wire Wire Line
+	6810 1510 6810 2060
+Connection ~ 6810 2060
+Wire Wire Line
+	6810 2060 6810 2660
+Connection ~ 6810 2660
+Wire Wire Line
+	6810 2660 6810 3260
+Wire Wire Line
+	7510 1460 7510 1510
+Connection ~ 7510 1510
+Wire Wire Line
+	7510 1510 7510 2060
+Connection ~ 7510 2060
+Wire Wire Line
+	7510 2060 7510 2660
+Connection ~ 7510 2660
+Wire Wire Line
+	7510 2660 7510 3260
+Wire Wire Line
+	8210 1460 8210 1510
+Connection ~ 8210 1510
+Wire Wire Line
+	8210 1510 8210 2060
+Connection ~ 8210 2060
+Wire Wire Line
+	8210 2060 8210 2660
+Connection ~ 8210 2660
+Wire Wire Line
+	8210 2660 8210 3260
+Wire Wire Line
+	8910 1460 8910 1510
+Connection ~ 8910 1510
+Wire Wire Line
+	8910 1510 8910 2060
+Connection ~ 8910 2060
+Wire Wire Line
+	8910 2060 8910 2660
+Connection ~ 8910 2660
+Wire Wire Line
+	8910 2660 8910 3260
+Connection ~ 8910 3260
+Wire Wire Line
+	8910 3260 8910 3810
+Wire Wire Line
+	9610 1460 9610 1510
+Connection ~ 9610 1510
+Wire Wire Line
+	9610 1510 9610 2060
+Connection ~ 9610 2060
+Wire Wire Line
+	9610 2060 9610 2660
+Connection ~ 9610 2660
+Wire Wire Line
+	9610 2660 9610 3260
+Wire Wire Line
+	10310 1460 10310 1510
+Connection ~ 10310 1510
+Wire Wire Line
+	10310 1510 10310 2060
+Connection ~ 10310 2060
+Wire Wire Line
+	10310 2060 10310 2660
+Connection ~ 10310 2660
+Wire Wire Line
+	10310 2660 10310 3260
+Wire Wire Line
+	11010 1460 11010 1510
+Connection ~ 11010 1510
+Wire Wire Line
+	11010 1510 11010 2060
+Connection ~ 11010 2060
+Wire Wire Line
+	11010 2060 11010 2660
+Connection ~ 11010 2660
+Wire Wire Line
+	11010 2660 11010 3260
+Connection ~ 11010 3260
+Wire Wire Line
+	11010 3260 11010 3810
+Wire Wire Line
+	11710 1460 11710 1510
+Connection ~ 11710 1510
+Wire Wire Line
+	11710 1510 11710 2060
+Connection ~ 11710 2060
+Wire Wire Line
+	11710 2060 11710 2660
+Connection ~ 11710 2660
+Wire Wire Line
+	11710 2660 11710 3260
+Connection ~ 11710 3260
+Wire Wire Line
+	11710 3260 11710 3810
+Wire Wire Line
+	12410 1460 12410 1510
+Connection ~ 12410 1510
+Wire Wire Line
+	12410 1510 12410 2060
+Connection ~ 12410 2060
+Wire Wire Line
+	12410 2060 12410 2660
+Connection ~ 12410 2660
+Wire Wire Line
+	12410 2660 12410 3260
+Connection ~ 12410 3260
+Wire Wire Line
+	12410 3260 12410 3810
+Wire Wire Line
+	13110 1460 13110 1510
+Connection ~ 13110 1510
+Wire Wire Line
+	13110 1510 13110 2060
+Connection ~ 13110 2060
+Wire Wire Line
+	13110 2060 13110 3260
+Connection ~ 13110 3260
+Wire Wire Line
+	13110 3260 13110 3810
+Wire Wire Line
+	13810 1460 13810 1510
+Connection ~ 13810 1510
+Wire Wire Line
+	13810 1510 13810 2060
+Connection ~ 13810 2060
+Wire Wire Line
+	13810 2060 13810 2185
+Connection ~ 13810 2660
+Wire Wire Line
+	13810 2660 13810 2760
+Connection ~ 13810 3260
+Wire Wire Line
+	13810 3260 13810 3810
+Wire Wire Line
+	14510 1460 14510 1510
+Connection ~ 14510 1510
+Wire Wire Line
+	14510 1510 14510 2060
+Connection ~ 14510 2060
+Wire Wire Line
+	14510 2060 14510 2660
+Connection ~ 14510 2660
+Wire Wire Line
+	14510 2660 14510 3260
+Connection ~ 14510 3260
+Wire Wire Line
+	14510 3260 14510 3810
+$Comp
+L crispy-keyboard-rescue:KEYSW-keyboard_parts-discipline-pcb-rescue SW69
+U 1 1 5DC1DEA4
+P 3510 2660
+F 0 "SW69" H 3510 2893 60  0000 C CNN
+F 1 "KEYSW" H 3510 2560 60  0001 C CNN
+F 2 "cftkb:SW_Cherry_MX1A_1.25u_PCBNOSCREEN" H 3510 2660 60  0001 C CNN
+F 3 "" H 3510 2660 60  0000 C CNN
+	1    3510 2660
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3810 2660 3810 2585
+Wire Wire Line
+	3810 2585 4560 2585
+Wire Wire Line
+	4560 2585 4560 2660
+Wire Wire Line
+	4560 2660 4710 2660
+Wire Wire Line
+	4060 2660 3860 2660
+Wire Wire Line
+	3860 2660 3860 2735
+Wire Wire Line
+	3860 2735 3210 2735
+Connection ~ 4060 2660
+$Comp
+L crispy-keyboard-rescue:KEYSW-keyboard_parts-discipline-pcb-rescue SW70
+U 1 1 5DC5E2A2
+P 4410 4485
+F 0 "SW70" H 4410 4718 60  0000 C CNN
+F 1 "KEYSW" H 4410 4385 60  0001 C CNN
+F 2 "cftkb:SW_Cherry_MX1A_1.50u_PCBNOSCREEN" H 4410 4485 60  0001 C CNN
+F 3 "" H 4410 4485 60  0000 C CNN
+	1    4410 4485
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4110 4485 4110 3810
+Connection ~ 4110 3810
+Wire Wire Line
+	4710 4485 4710 3810
+Connection ~ 4710 3810
+$Comp
+L crispy-keyboard-rescue:KEYSW-keyboard_parts-discipline-pcb-rescue SW71
+U 1 1 5DC9EC8E
+P 5810 4485
+F 0 "SW71" H 5810 4718 60  0000 C CNN
+F 1 "KEYSW" H 5810 4385 60  0001 C CNN
+F 2 "cftkb:SW_Cherry_MX1A_1.50u_PCBNOSCREEN" H 5810 4485 60  0001 C CNN
+F 3 "" H 5810 4485 60  0000 C CNN
+	1    5810 4485
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5510 4485 5510 3810
+Connection ~ 5510 3810
+Wire Wire Line
+	6110 4485 6110 3810
+Connection ~ 6110 3810
+$Comp
+L crispy-keyboard-rescue:KEYSW-keyboard_parts-discipline-pcb-rescue SW72
+U 1 1 5DCE7558
+P 8610 4485
+F 0 "SW72" H 8610 4718 60  0000 C CNN
+F 1 "KEYSW" H 8610 4385 60  0001 C CNN
+F 2 "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN" H 8610 4485 60  0001 C CNN
+F 3 "" H 8610 4485 60  0000 C CNN
+	1    8610 4485
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8310 4485 8310 3810
+Connection ~ 8310 3810
+Wire Wire Line
+	8910 4485 8910 3810
+Connection ~ 8910 3810
+$Comp
+L crispy-keyboard-rescue:KEYSW-keyboard_parts-discipline-pcb-rescue SW73
+U 1 1 5DD3207D
+P 10710 4460
+F 0 "SW73" H 10710 4693 60  0000 C CNN
+F 1 "KEYSW" H 10710 4360 60  0001 C CNN
+F 2 "cftkb:SW_Cherry_MX1A_1.50u_PCBNOSCREEN" H 10710 4460 60  0001 C CNN
+F 3 "" H 10710 4460 60  0000 C CNN
+	1    10710 4460
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10410 4460 10410 3810
+Connection ~ 10410 3810
+Wire Wire Line
+	11010 4460 11010 3810
+Connection ~ 11010 3810
+$Comp
+L crispy-keyboard-rescue:KEYSW-keyboard_parts-discipline-pcb-rescue SW74
+U 1 1 5DD72960
+P 11410 4460
+F 0 "SW74" H 11410 4693 60  0000 C CNN
+F 1 "KEYSW" H 11410 4360 60  0001 C CNN
+F 2 "cftkb:SW_Cherry_MX1A_1.50u_PCBNOSCREEN" H 11410 4460 60  0001 C CNN
+F 3 "" H 11410 4460 60  0000 C CNN
+	1    11410 4460
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11110 4460 11110 3810
+Connection ~ 11110 3810
+Wire Wire Line
+	11710 4460 11710 3810
+Connection ~ 11710 3810
+$Comp
+L crispy-keyboard-rescue:KEYSW-keyboard_parts-discipline-pcb-rescue SW75
+U 1 1 5E1101F9
+P 5110 3260
+F 0 "SW75" H 5110 3493 60  0000 C CNN
+F 1 "KEYSW" H 5110 3160 60  0001 C CNN
+F 2 "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN" H 5110 3260 60  0001 C CNN
+F 3 "" H 5110 3260 60  0000 C CNN
+	1    5110 3260
+	1    0    0    -1  
+$EndComp
+Connection ~ 5410 3260
+Wire Wire Line
+	5410 3260 5410 3810
+$Comp
+L Device:D D71
+U 1 1 5E12480E
+P 4810 3460
+F 0 "D71" V 4856 3381 50  0000 R CNN
+F 1 " " V 4765 3381 50  0000 R CNN
+F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" H 4810 3460 50  0001 C CNN
+F 3 "~" H 4810 3460 50  0001 C CNN
+	1    4810 3460
+	0    -1   -1   0   
+$EndComp
+Connection ~ 4810 3610
+Wire Wire Line
+	4810 3610 5460 3610
+Wire Wire Line
+	4810 3260 4810 3310
+$Comp
+L crispy-keyboard-rescue:KEYSW-keyboard_parts-discipline-pcb-rescue SW76
+U 1 1 5E1BCA3A
+P 13510 2185
+F 0 "SW76" H 13510 2418 60  0000 C CNN
+F 1 "KEYSW" H 13510 2085 60  0001 C CNN
+F 2 "cftkb:SW_Cherry_MX1A_ISOEnter_PCB_ReversedStabilizer" H 13510 2185 60  0001 C CNN
+F 3 "" H 13510 2185 60  0000 C CNN
+	1    13510 2185
+	1    0    0    -1  
+$EndComp
+Connection ~ 13810 2185
+Wire Wire Line
+	13810 2185 13810 2660
+Wire Wire Line
+	13210 2185 13210 2060
+Connection ~ 13210 2060
+$Comp
+L crispy-keyboard-rescue:KEYSW-keyboard_parts-discipline-pcb-rescue SW77
+U 1 1 5E1F0136
+P 13510 2760
+F 0 "SW77" H 13510 2993 60  0000 C CNN
+F 1 "KEYSW" H 13510 2660 60  0001 C CNN
+F 2 "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN" H 13510 2760 60  0001 C CNN
+F 3 "" H 13510 2760 60  0000 C CNN
+	1    13510 2760
+	1    0    0    -1  
+$EndComp
+Connection ~ 13810 2760
+Wire Wire Line
+	13810 2760 13810 3260
+Wire Wire Line
+	13210 2760 13210 2660
+Connection ~ 13210 2660
+$Comp
+L crispy-keyboard-rescue:KEYSW-keyboard_parts-discipline-pcb-rescue SW78
+U 1 1 5E225BFB
+P 3535 3260
+F 0 "SW78" H 3535 3493 60  0000 C CNN
+F 1 "KEYSW" H 3535 3160 60  0001 C CNN
+F 2 "cftkb:SW_Cherry_MX1A_1.25u_PCBNOSCREEN" H 3535 3260 60  0001 C CNN
+F 3 "" H 3535 3260 60  0000 C CNN
+	1    3535 3260
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3835 3260 3835 3185
+Wire Wire Line
+	3835 3185 4560 3185
+Wire Wire Line
+	4560 3185 4560 3260
+Wire Wire Line
+	4560 3260 4710 3260
+Wire Wire Line
+	3235 3260 3235 3335
+Wire Wire Line
+	3235 3335 3910 3335
+Wire Wire Line
+	3910 3335 3910 3260
+Wire Wire Line
+	3910 3260 4060 3260
+Connection ~ 4060 3260
+Text GLabel 5425 1460 1    50   Input ~ 0
+col1
+Wire Wire Line
+	5425 1460 5410 1460
+Wire Wire Line
+	5342 7497 5060 7497
+Text GLabel 6342 6397 2    50   Input ~ 0
+row3
+Wire Wire Line
+	6110 1460 6110 1510
+Wire Wire Line
+	6110 1460 6165 1460
+Connection ~ 6110 1510
+$Comp
+L crispy-keyboard-rescue:KEYSW-keyboard_parts-discipline-pcb-rescue SW79
+U 1 1 5FB330C4
+P 2685 2130
+F 0 "SW79" H 2685 2363 60  0000 C CNN
+F 1 "KEYSW" H 2685 2030 60  0001 C CNN
+F 2 "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN" H 2685 2130 60  0001 C CNN
+F 3 "" H 2685 2130 60  0000 C CNN
+	1    2685 2130
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D74
+U 1 1 5FB330CE
+P 2335 2330
+F 0 "D74" V 2381 2251 50  0000 R CNN
+F 1 " " V 2290 2251 50  0000 R CNN
+F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" H 2335 2330 50  0001 C CNN
+F 3 "~" H 2335 2330 50  0001 C CNN
+	1    2335 2330
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2385 2130 2335 2130
+Wire Wire Line
+	2335 2130 2335 2180
+$Comp
+L crispy-keyboard-rescue:KEYSW-keyboard_parts-discipline-pcb-rescue SW80
+U 1 1 5FB330DA
+P 2685 2730
+F 0 "SW80" H 2685 2963 60  0000 C CNN
+F 1 "KEYSW" H 2685 2630 60  0001 C CNN
+F 2 "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN" H 2685 2730 60  0001 C CNN
+F 3 "" H 2685 2730 60  0000 C CNN
+	1    2685 2730
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D73
+U 1 1 5FB330E4
+P 2330 2930
+F 0 "D73" V 2376 2851 50  0000 R CNN
+F 1 " " V 2285 2851 50  0000 R CNN
+F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" H 2330 2930 50  0001 C CNN
+F 3 "~" H 2330 2930 50  0001 C CNN
+	1    2330 2930
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2385 2730 2335 2730
+$Comp
+L Device:D D75
+U 1 1 5FB330FA
+P 2335 3530
+F 0 "D75" V 2381 3451 50  0000 R CNN
+F 1 " " V 2290 3451 50  0000 R CNN
+F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" H 2335 3530 50  0001 C CNN
+F 3 "~" H 2335 3530 50  0001 C CNN
+	1    2335 3530
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2385 3330 2335 3330
+Wire Wire Line
+	2335 3330 2335 3380
+$Comp
+L crispy-keyboard-rescue:KEYSW-keyboard_parts-discipline-pcb-rescue SW82
+U 1 1 5FB33106
+P 2685 3880
+F 0 "SW82" H 2685 4113 60  0000 C CNN
+F 1 "KEYSW" H 2685 3780 60  0001 C CNN
+F 2 "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN" H 2685 3880 60  0001 C CNN
+F 3 "" H 2685 3880 60  0000 C CNN
+	1    2685 3880
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D76
+U 1 1 5FB33110
+P 2335 4080
+F 0 "D76" V 2381 4001 50  0000 R CNN
+F 1 " " V 2290 4001 50  0000 R CNN
+F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" H 2335 4080 50  0001 C CNN
+F 3 "~" H 2335 4080 50  0001 C CNN
+	1    2335 4080
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2385 3880 2335 3880
+Wire Wire Line
+	2285 2480 2335 2480
+Connection ~ 2335 2480
+Text Label 2285 2480 0    50   ~ 0
+row1
+Text Label 2285 3080 0    50   ~ 0
+row2
+Wire Wire Line
+	2285 3680 2335 3680
+Connection ~ 2335 3680
+Text Label 2285 3680 0    50   ~ 0
+row3
+Wire Wire Line
+	2285 4230 2335 4230
+Connection ~ 2335 4230
+Text Label 2285 4230 0    50   ~ 0
+row4
+Text GLabel 2285 2480 0    50   Input ~ 0
+row1
+Text GLabel 2285 3080 0    50   Input ~ 0
+row2
+Text GLabel 2285 3680 0    50   Input ~ 0
+row3
+Text GLabel 2285 4230 0    50   Input ~ 0
+row4
+Text GLabel 2985 1530 1    50   Input ~ 0
+col15
+Wire Wire Line
+	2335 3880 2335 3930
+Wire Wire Line
+	3210 2660 3210 2735
+Wire Wire Line
+	4010 4230 4010 4160
+Wire Wire Line
+	2335 4230 4010 4230
+Wire Wire Line
+	4010 3680 4010 3610
+Wire Wire Line
+	2335 3680 4010 3680
+$Comp
+L crispy-keyboard-rescue:KEYSW-keyboard_parts-discipline-pcb-rescue SW81
+U 1 1 5FB330F0
+P 2685 3330
+F 0 "SW81" H 2685 3563 60  0000 C CNN
+F 1 "KEYSW" H 2685 3230 60  0001 C CNN
+F 2 "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN" H 2685 3330 60  0001 C CNN
+F 3 "" H 2685 3330 60  0000 C CNN
+	1    2685 3330
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4010 3080 4010 3010
+Wire Wire Line
+	4010 2480 4010 2410
+Wire Wire Line
+	2335 2480 4010 2480
+Wire Wire Line
+	2985 1530 2985 2130
+Wire Wire Line
+	2985 2730 2985 2130
+Connection ~ 2985 2730
+Connection ~ 2985 2130
+Wire Wire Line
+	2985 3330 2985 2730
+Wire Wire Line
+	2985 3880 2985 3330
+Connection ~ 2985 3330
+Wire Wire Line
+	5342 6197 4849 6197
+Wire Wire Line
+	2285 3080 2330 3080
+Connection ~ 2330 3080
+Wire Wire Line
+	2330 3080 4010 3080
+Text Label 2985 1630 3    50   ~ 0
+col15
+Wire Wire Line
+	2330 2780 2335 2780
+Wire Wire Line
+	2335 2730 2335 2780
+Text Label 3960 1860 0    50   ~ 0
+row0
+Text GLabel 3960 1860 0    50   Input ~ 0
+row0
+Wire Wire Line
+	3960 1860 4060 1860
+$Comp
+L Device:R_Small R_caps1
+U 1 1 62D0B492
+P 4449 6197
+F 0 "R_caps1" V 4253 6197 50  0000 C CNN
+F 1 "1.5K" V 4344 6197 50  0000 C CNN
+F 2 "cftkb:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 4449 6197 50  0001 C CNN
+F 3 "~" H 4449 6197 50  0001 C CNN
+	1    4449 6197
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 5FC7E71F
+P 4349 6197
+F 0 "#PWR0101" H 4349 5947 50  0001 C CNN
+F 1 "GND" H 4354 6024 50  0000 C CNN
+F 2 "" H 4349 6197 50  0001 C CNN
+F 3 "" H 4349 6197 50  0001 C CNN
+	1    4349 6197
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED LD1
+U 1 1 62D0B486
+P 4699 6197
+F 0 "LD1" H 4749 6397 50  0000 C CNN
+F 1 "Capslock" H 4690 6322 50  0000 C CNN
+F 2 "crispy-keyboard:LED_D3.0mm" H 4699 6197 50  0001 C CNN
+F 3 "~" H 4699 6197 50  0001 C CNN
+	1    4699 6197
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 5FEFE3AD
+P 6823 6947
+F 0 "#PWR0105" H 6823 6697 50  0001 C CNN
+F 1 "GND" H 6828 6774 50  0000 C CNN
+F 2 "" H 6823 6947 50  0001 C CNN
+F 3 "" H 6823 6947 50  0001 C CNN
+	1    6823 6947
+	0    1    1    0   
+$EndComp
+Text GLabel 5342 6797 0    50   Input ~ 0
+col9
+Text GLabel 6342 7597 2    50   Input ~ 0
+col3
+Text GLabel 5342 6997 0    50   Input ~ 0
+col7
+Text GLabel 6342 7697 2    50   Input ~ 0
+col4
+Text GLabel 6342 7797 2    50   Input ~ 0
+col5
+Text GLabel 5342 7097 0    50   Input ~ 0
+col6
+Text GLabel 5342 6397 0    50   Input ~ 0
+col13
+Text GLabel 5342 6497 0    50   Input ~ 0
+col12
+Text GLabel 5342 6597 0    50   Input ~ 0
+col11
+Text GLabel 5342 6697 0    50   Input ~ 0
+col10
+Text GLabel 5342 6897 0    50   Input ~ 0
+col8
+Text GLabel 6342 7497 2    50   Input ~ 0
+col2
+Text GLabel 6342 7197 2    50   Input ~ 0
+col1
+Text GLabel 6342 7097 2    50   Input ~ 0
+col0
+Text GLabel 6342 6797 2    50   Input ~ 0
+row4
+Text GLabel 6342 6197 2    50   Input ~ 0
+col14
+Text GLabel 6342 6597 2    50   Input ~ 0
+row1
+Text GLabel 6342 6697 2    50   Input ~ 0
+row0
+$Comp
+L power:GND #PWR0102
+U 1 1 60D5ADB0
+P 6342 7297
+F 0 "#PWR0102" H 6342 7047 50  0001 C CNN
+F 1 "GND" H 6347 7124 50  0000 C CNN
+F 2 "" H 6342 7297 50  0001 C CNN
+F 3 "" H 6342 7297 50  0001 C CNN
+	1    6342 7297
+	0    -1   -1   0   
+$EndComp
+Text GLabel 6342 6297 2    50   Input ~ 0
+col15
+Wire Wire Line
+	6823 6897 6823 6847
+$Comp
+L ProMicro:Micro U1
+U 1 1 609E8671
+P 5842 7447
+F 0 "U1" H 5842 5910 60  0000 C CNN
+F 1 "Micro" H 5842 6016 60  0000 C CNN
+F 2 "blue_macro:arduino_micro_large" H 5842 7447 60  0001 C CNN
+F 3 "" H 5842 7447 60  0001 C CNN
+	1    5842 7447
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	6342 6997 6823 6997
+Wire Wire Line
+	6342 6897 6823 6897
+$Comp
+L Device:LED LD2
+U 1 1 60D04CCB
+P 6040 8613
+F 0 "LD2" H 6033 8830 50  0000 C CNN
+F 1 "LED" H 6033 8739 50  0000 C CNN
+F 2 "crispy-keyboard:LED_D3.0mm" H 6040 8613 50  0001 C CNN
+F 3 "~" H 6040 8613 50  0001 C CNN
+	1    6040 8613
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED LD3
+U 1 1 60D0501B
+P 6034 9117
+F 0 "LD3" H 6027 9334 50  0000 C CNN
+F 1 "LED" H 6027 9243 50  0000 C CNN
+F 2 "crispy-keyboard:LED_D3.0mm" H 6034 9117 50  0001 C CNN
+F 3 "~" H 6034 9117 50  0001 C CNN
+	1    6034 9117
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW84
+U 1 1 60D0589B
+P 7368 8615
+F 0 "SW84" H 7368 8900 50  0000 C CNN
+F 1 "SW_Push" H 7368 8809 50  0000 C CNN
+F 2 "crispy-keyboard:SW_PUSH_6mm" H 7368 8815 50  0001 C CNN
+F 3 "~" H 7368 8815 50  0001 C CNN
+	1    7368 8615
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R1
+U 1 1 60D0872C
+P 6375 8613
+F 0 "R1" V 6179 8613 50  0000 C CNN
+F 1 "1k" V 6270 8613 50  0000 C CNN
+F 2 "crispy-keyboard:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 6375 8613 50  0001 C CNN
+F 3 "~" H 6375 8613 50  0001 C CNN
+	1    6375 8613
+	0    1    1    0   
+$EndComp
+Text GLabel 5342 7297 0    50   Input ~ 0
+5V
+Text GLabel 5342 7397 0    50   Input ~ 0
+RESET
+Text GLabel 6342 7397 2    50   Input ~ 0
+RESET
+Text GLabel 7797 8615 2    50   Input ~ 0
+RESET
+Text GLabel 5342 6297 0    50   Input ~ 0
+3.3V
+Wire Wire Line
+	6628 8613 6475 8613
+Wire Wire Line
+	6275 8613 6190 8613
+$Comp
+L power:GND #PWR0103
+U 1 1 60EC2A9E
+P 5890 8613
+F 0 "#PWR0103" H 5890 8363 50  0001 C CNN
+F 1 "GND" H 5895 8440 50  0000 C CNN
+F 2 "" H 5890 8613 50  0001 C CNN
+F 3 "" H 5890 8613 50  0001 C CNN
+	1    5890 8613
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0106
+U 1 1 60EC32E6
+P 5884 9117
+F 0 "#PWR0106" H 5884 8867 50  0001 C CNN
+F 1 "GND" H 5889 8944 50  0000 C CNN
+F 2 "" H 5884 9117 50  0001 C CNN
+F 3 "" H 5884 9117 50  0001 C CNN
+	1    5884 9117
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R3
+U 1 1 60EC7884
+P 6369 9117
+F 0 "R3" V 6173 9117 50  0000 C CNN
+F 1 "1k" V 6264 9117 50  0000 C CNN
+F 2 "crispy-keyboard:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 6369 9117 50  0001 C CNN
+F 3 "~" H 6369 9117 50  0001 C CNN
+	1    6369 9117
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6622 9117 6469 9117
+Wire Wire Line
+	6269 9117 6184 9117
+Text GLabel 5342 7197 0    50   Input ~ 0
+Blue_LED
+Text GLabel 6622 9117 2    50   Input ~ 0
+Blue_LED
+$Comp
+L Device:R_Small R2
+U 1 1 60F8FC6C
+P 7665 8399
+F 0 "R2" H 7606 8353 50  0000 R CNN
+F 1 "R_Small" H 7606 8444 50  0000 R CNN
+F 2 "crispy-keyboard:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 7665 8399 50  0001 C CNN
+F 3 "~" H 7665 8399 50  0001 C CNN
+	1    7665 8399
+	-1   0    0    1   
+$EndComp
+Text GLabel 7665 8299 1    50   Input ~ 0
+3.3V
+$Comp
+L power:GND #PWR0107
+U 1 1 6103975D
+P 7168 8615
+F 0 "#PWR0107" H 7168 8365 50  0001 C CNN
+F 1 "GND" H 7173 8442 50  0000 C CNN
+F 2 "" H 7168 8615 50  0001 C CNN
+F 3 "" H 7168 8615 50  0001 C CNN
+	1    7168 8615
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7568 8615 7665 8615
+Wire Wire Line
+	7665 8499 7665 8615
+Connection ~ 7665 8615
+Wire Wire Line
+	7665 8615 7797 8615
+Text GLabel 5342 7697 0    50   Input ~ 0
+RGB
+$Comp
+L Connector:Conn_01x03_Female J1
+U 1 1 610C4160
+P 7705 9054
+F 0 "J1" V 7643 8866 50  0000 R CNN
+F 1 "Conn_01x03_Female" V 7552 8866 50  0000 R CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_1x03_P2.00mm_Horizontal" H 7705 9054 50  0001 C CNN
+F 3 "~" H 7705 9054 50  0001 C CNN
+	1    7705 9054
+	0    -1   -1   0   
+$EndComp
+Text GLabel 7705 9254 3    50   Input ~ 0
+5V
+$Comp
+L power:GND #PWR0108
+U 1 1 610C4F74
+P 7879 9301
+F 0 "#PWR0108" H 7879 9051 50  0001 C CNN
+F 1 "GND" H 7884 9128 50  0000 C CNN
+F 2 "" H 7879 9301 50  0001 C CNN
+F 3 "" H 7879 9301 50  0001 C CNN
+	1    7879 9301
+	1    0    0    -1  
+$EndComp
+Text GLabel 7499 9302 3    50   Input ~ 0
+RGB
+Wire Wire Line
+	7499 9302 7605 9302
+Wire Wire Line
+	7605 9302 7605 9254
+Wire Wire Line
+	7879 9301 7805 9301
+Wire Wire Line
+	7805 9301 7805 9254
+$Comp
+L Connector_Generic:Conn_01x02 J2
+U 1 1 6086269C
+P 4178 7633
+F 0 "J2" H 4096 7850 50  0000 C CNN
+F 1 "Conn_01x02" H 4096 7759 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 4178 7633 50  0001 C CNN
+F 3 "~" H 4178 7633 50  0001 C CNN
+	1    4178 7633
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0109
+U 1 1 60863186
+P 4378 7733
+F 0 "#PWR0109" H 4378 7483 50  0001 C CNN
+F 1 "GND" H 4383 7560 50  0000 C CNN
+F 2 "" H 4378 7733 50  0001 C CNN
+F 3 "" H 4378 7733 50  0001 C CNN
+	1    4378 7733
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5342 7597 4378 7597
+Wire Wire Line
+	4378 7597 4378 7633
+Text Notes 12190 10911 0    50   ~ 0
+Crispy Keyboard - NRF52
+Wire Wire Line
+	6823 6997 6823 7047
+$Comp
+L Device:LED LD1_1
+U 1 1 609DF6F8
+P 4698 6329
+F 0 "LD1_1" H 4748 6529 50  0000 C CNN
+F 1 "Capslock" H 4689 6454 50  0000 C CNN
+F 2 "crispy-keyboard:LED_D3.0mm" H 4698 6329 50  0001 C CNN
+F 3 "~" H 4698 6329 50  0001 C CNN
+	1    4698 6329
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4848 6329 4848 6197
+Wire Wire Line
+	4848 6197 4849 6197
+Connection ~ 4849 6197
+Wire Wire Line
+	4548 6329 4548 6197
+Wire Wire Line
+	4548 6197 4549 6197
+Connection ~ 4549 6197
+$Comp
+L Device:Rotary_Encoder_Switch SW83
+U 1 1 60A5C9FA
+P 7123 6947
+F 0 "SW83" H 7123 7314 50  0000 C CNN
+F 1 "Rotary_Encoder_Switch" H 7123 7223 50  0000 C CNN
+F 2 "crispy-keyboard:Bourns-PEC11R-4120F-S0018-MFG" H 6973 7107 50  0001 C CNN
+F 3 "~" H 7123 7207 50  0001 C CNN
+	1    7123 6947
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6860 3609 6860 3610
+$Comp
+L Device:D D77
+U 1 1 60A858AB
+P 7573 7047
+F 0 "D77" V 7619 6968 50  0000 R CNN
+F 1 " " V 7528 6968 50  0000 R CNN
+F 2 "crispy-keyboard:D_DO-35_SOD27_P5.08mm_Horizontal" H 7573 7047 50  0001 C CNN
+F 3 "~" H 7573 7047 50  0001 C CNN
+	1    7573 7047
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6860 6398 6860 4160
+Connection ~ 6860 4160
+Wire Wire Line
+	6860 4160 8260 4160
+Wire Wire Line
+	7723 6398 7723 7047
+Wire Wire Line
+	6860 6398 7723 6398
+Text GLabel 7423 6847 2    50   Input ~ 0
+col3
+Text GLabel 5342 7797 0    50   Input ~ 0
+Red_LED
+Text GLabel 6628 8613 2    50   Input ~ 0
+Red_LED
+$EndSCHEMATC

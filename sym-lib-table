@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name 2020-11-02_19-36-16)(type Legacy)(uri ${KIPRJMOD}/lib/2020-11-02_19-36-16.lib)(options "")(descr ""))
+  (lib (name crispy-keyboard-rescue)(type Legacy)(uri ${KIPRJMOD}/crispy-keyboard-rescue.lib)(options "")(descr ""))
+)
